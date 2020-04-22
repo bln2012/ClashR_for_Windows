@@ -7733,7 +7733,7 @@ module.exports = function(e)
 			var c = this.$electron.remote.dialog;
 			c.showMessageBox(
 			{
-				title: "Clash for Windows",
+				title: "ClashR for Windows",
 				type: "warning",
 				message: "Cannot set system proxy",
 				detail: t.stack,
@@ -7786,7 +7786,7 @@ module.exports = function(e)
 					var o = !1;
 					try
 					{
-						o = i[r].values["Clash for Windows"].value === e.$electron.remote.app.getPath("exe"), e.$electron.ipcRenderer.send("autolaunch-status-changed", o ? 1 : 0), t(o)
+						o = i[r].values["ClashR for Windows"].value === e.$electron.remote.app.getPath("exe"), e.$electron.ipcRenderer.send("autolaunch-status-changed", o ? 1 : 0), t(o)
 					}
 					catch (e)
 					{
@@ -9876,7 +9876,7 @@ module.exports = function(e)
 							return n = "", t && (n = this.$electron.remote.app.getPath("exe")), r = {
 								"HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run":
 								{
-									"Clash for Windows":
+									"ClashR for Windows":
 									{
 										type: "REG_SZ",
 										value: n
@@ -11286,7 +11286,7 @@ module.exports = function(e)
 					{
 						Object(Q.exec)(e,
 						{
-							name: "Clash for Windows"
+							name: "ClashR for Windows"
 						}, (function(e)
 						{
 							t && t(void 0 === e), n(void 0 === e)
@@ -11440,7 +11440,7 @@ module.exports = function(e)
 					var r = this;
 					this.$electron.remote.dialog.showMessageBox(
 					{
-						title: "Clash for Windows",
+						title: "ClashR for Windows",
 						type: "question",
 						message: "We found a new version for you, install it?",
 						detail: "Release Note:\r\n" + t,
@@ -12067,7 +12067,7 @@ module.exports = function(e)
 								case 0:
 									return n = e.$electron.remote.dialog, t.next = 3, n.showMessageBox(
 									{
-										title: "Clash for Windows",
+										title: "ClashR for Windows",
 										type: "warning",
 										message: "Please confirm",
 										detail: "config.yaml and country.mmdb will be removed.",
@@ -12322,7 +12322,7 @@ module.exports = function(e)
 			{
 				return {
 					iconPath: "static/imgs/logo2.png",
-					title: "Clash for Windows",
+					title: "ClashR for Windows",
 					info: [],
 					systemProxy: !1,
 					systemProxyLoading: !0,
@@ -12916,7 +12916,7 @@ module.exports = function(e)
 				{
 					click: e.reloadElectron
 				}
-			}, [e._v("Clash for Windows")]), e._v(" "), n("div",
+			}, [e._v("ClashR for Windows")]), e._v(" "), n("div",
 			{
 				staticClass: "version",
 				on:
@@ -15512,7 +15512,7 @@ module.exports = function(e)
 								case 0:
 									return r = t.pfs.files[e], a = r.name, r.url, i = t.$electron.remote.dialog, n.next = 4, i.showMessageBox(
 									{
-										title: "Clash for Windows",
+										title: "ClashR for Windows",
 										type: "warning",
 										message: 'Are you sure to delete "' + a + '"?',
 										buttons: ["Yes", "No"]
@@ -15574,7 +15574,7 @@ module.exports = function(e)
 									(i = n.sent)
 									.success || (t.$electron.remote.dialog.showMessageBox(
 									{
-										title: "Clash for Windows",
+										title: "ClashR for Windows",
 										type: "error",
 										message: "Could not switch to this profile!",
 										detail: i.message || "",
@@ -17753,7 +17753,8 @@ module.exports = function(e)
 			}, [n("div",
 			{
 				staticClass: "title"
-			}, [e._v("Advertisement")]), e._v(" "), n("div",
+			}, [e._v("Advertisement")]), e._v(" "), 
+			n("div",
 			{
 				staticClass: "ad-img-list"
 			}, e._l(e.adImages, (function(t, r)

@@ -707,7 +707,7 @@ module.exports = function(t)
 						case 0:
 							return e = {
 								type: "error",
-								title: "Clash for Windows",
+								title: "ClashR for Windows",
 								message: "Dashboard has crashed!",
 								buttons: ["Reload", "Exit"]
 							}, t.next = 3, p.dialog.showMessageBox(d, e);
@@ -724,7 +724,7 @@ module.exports = function(t)
 				d.webContents.send("app-resume")
 			})), (y = new p.Tray(e(24)
 				.join(__static, "tray_normal_Z8R_icon.ico")))
-			.setToolTip("Clash for Windows"), y.on("click", (function()
+			.setToolTip("ClashR for Windows"), y.on("click", (function()
 			{
 				d.show()
 			})), p.ipcMain.on("cleanup-done", (function()
