@@ -1,0 +1,27 @@
+files:
+  - time: 1587701376929.yml
+    name: 云际互联
+    url: https://gfwsb.114514.best/sub?target=clashr&url=https%3A%2F%2Fcloudiplc.co%2Flink%2FWZthsxzNBqf8hnSe%3Fsub%3D1&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
+    selected:
+      - name: GLOBAL
+        now: 🇭🇰 Pro 深圳-香港 02
+      - name: 🚀 节点选择
+        now: ♻️ 自动选择
+      - name: 🌍 国外媒体
+        now: 🚀 节点选择
+      - name: 📲 电报信息
+        now: 🚀 节点选择
+      - name: Ⓜ️ 微软服务
+        now: 🚀 节点选择
+      - name: 🍎 苹果服务
+        now: 🚀 节点选择
+      - name: 🎯 全球直连
+        now: DIRECT
+      - name: 🛑 全球拦截
+        now: REJECT
+      - name: 🍃 应用净化
+        now: REJECT
+      - name: 🐟 漏网之鱼
+        now: 🚀 节点选择
+    interval: 0
+index: 0
