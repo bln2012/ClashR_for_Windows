@@ -1,0 +1,92 @@
+"General"			"常规"
+
+"Allow LAN"		"允许局域网连接"
+"Home Directory"		"配置文件目录"
+"Open Folder"		"打开文件夹"
+"GeoIP Database"		"GeoIP 数据库"
+"UWP Loopback"		"UWP解锁工具"
+"Launch Helper"		"启动程序"
+"TAP Device"		"TAP 模式"
+"Install"			"安装"
+"General YAML"		"基础设置"
+"Text Mode Edit"		"编辑"
+"Theme"			"主题"
+"Light"			"白亮"
+"Dark"			"暗黑"
+"System Proxy"		"系统代理"
+"Start with Windows"	"开机启动"
+
+
+"Proxies"			"代理"
+
+
+"Profiles"			"配置"
+
+"Download from a URL"	"填入配置地址"
+"Download"		"下载"
+"Downloading"		"下载中……"
+"Success!"		"成功!"
+"Error!"			"错误!"
+"Edit in text mode"		"编辑文本文件"
+"Edit policies"		"编辑配置节点"
+"Edit rules"		"编辑规则"
+"Duplicate profile"		"创建副本"
+"Change information"	"修改配置信息"
+"Update this profile"	"更新配置"
+"Edit profile information"	"编辑配置信息"
+"Name"			"备注"
+"URL"			"地址"
+"Update Interval (hour)"	"更新间隔 (小时)"
+"Cancel"			"取消"
+"OK"			"确认"
+"Save"			"保存"
+"Copy profile"		"复制配置"
+"Input a new file name"	"填入新的备注"
+"Last Updated: "		"上次更新: "
+"Add"			"添加"
+"Top 100 matching rules(" + e._s(e.memoryData.length) + ")."	"前100个匹配规则(" + e._s(e.memoryData.length) + ")."
+"Please confirm"		"请确认"
+"config.yaml and country.mmdb will be removed."	"config.yaml和country.mmdb将被删除。"
+'Are you sure to delete "' + a + '"?'			'您确定要删除 "' + a + '"?'
+"Yes", "No"		"是", "否"
+"fiter by keywords"		"按关键字过滤"
+
+
+"Logs"			"日志"
+
+"Clear"			"清除"
+"Stop"			"停止"
+"Start"			"开始"
+("Requests in " + e._s(this.mode) + " mode")	(e._s(this.mode) + "模式下所代理的请求")	
+
+
+"Connections"		"连接"
+
+"Total: ↑"			"总计: ↑"
+"Upload Speed"		"上传速度"
+"Download Speed"		"下载速度"
+"Upload Traffic"		"上传流量"
+"Download Traffic"		"下载流量"
+"Time"			"连接时间"
+"Close All"		"全部断开"
+"Active Connections"	"活动链接"
+
+
+"Feedback"		"关于"
+
+"Developer"		"开发者"
+"404 Frror"		"Boyce Lig"
+"Relevance"		"相关链接"
+"Thanks"			"鸣谢"
+"Advertisement"		"广告"
+
+
+"Connected"		"连接成功"
+"Disconnected"		"断开连接"
+
+"Clash is running in the background", "Enjoy your free time!"	"ClashR 已经在后台运行", "享受你的自由时光！"
+
+"oops, got an error here"	"卧槽，这里出现错误"
+"Open logs folder"		"打开日志文件夹"
+"Try to repair"		"尝试修复"
+"Could not connect to Clash Core"	"无法连接到Clash Core"
