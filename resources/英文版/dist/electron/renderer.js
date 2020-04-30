@@ -439,7 +439,7 @@ module.exports = function(e)
 		})(e, t), u && u(e, t)
 	};
 	var l, f, p, h, v = !0,
-		m = "355a4f82780a9c2241e3",
+		m = "ace0dc0e77aa69af0606",
 		g = 1e4,
 		x = {},
 		b = [],
@@ -499,7 +499,7 @@ module.exports = function(e)
 	}, d.p = "", d.h = function()
 	{
 		return m
-	}, t(281)(d.s = 281)
+	}, t(282)(d.s = 282)
 }([function(e, t, n)
 {
 	e.exports = n(178)
@@ -516,7 +516,7 @@ module.exports = function(e)
 		{
 			default: e
 		}
-	}(n(9));
+	}(n(10));
 	t.default = function(e)
 	{
 		return function()
@@ -813,15 +813,15 @@ module.exports = function(e)
 					.join("\n")
 			}
 		}()
+}, function(e)
+{
+	e.exports = require("electron-log")
 }, function(e, t, n)
 {
 	e.exports = {
 		default: n(167),
 		__esModule: !0
 	}
-}, function(e)
-{
-	e.exports = require("electron-log")
 }, function(e)
 {
 	e.exports = require("moment")
@@ -901,54 +901,7 @@ module.exports = function(e)
 	d.F = 1, d.G = 2, d.S = 4, d.P = 8, d.B = 16, d.W = 32, d.U = 64, d.R = 128, e.exports = d
 }, function(e, t, n)
 {
-	"use strict";
-
-	function r(e)
-	{
-		return e && e.__esModule ? e :
-		{
-			default: e
-		}
-	}
-	t.__esModule = !0;
-	var a = r(n(164)),
-		i = r(n(22));
-	t.default = function(e, t)
-	{
-		if(Array.isArray(e)) return e;
-		if((0, a.default)(Object(e))) return function(e, t)
-		{
-			var n = [],
-				r = !0,
-				a = !1,
-				o = void 0;
-			try
-			{
-				for(var s, c = (0, i.default)(e); !(r = (s = c.next())
-					.done) && (n.push(s.value), !t || n.length !== t); r = !0);
-			}
-			catch (e)
-			{
-				a = !0, o = e
-			}
-			finally
-			{
-				try
-				{
-					!r && c.return && c.return()
-				}
-				finally
-				{
-					if(a) throw o
-				}
-			}
-			return n
-		}(e, t);
-		throw new TypeError("Invalid attempt to destructure non-iterable instance")
-	}
-}, function(e, t, n)
-{
-	var r = n(21),
+	var r = n(20),
 		a = n(112),
 		i = n(97),
 		o = Object.defineProperty;
@@ -985,6 +938,53 @@ module.exports = function(e)
 	}
 }, function(e, t, n)
 {
+	"use strict";
+
+	function r(e)
+	{
+		return e && e.__esModule ? e :
+		{
+			default: e
+		}
+	}
+	t.__esModule = !0;
+	var a = r(n(163)),
+		i = r(n(21));
+	t.default = function(e, t)
+	{
+		if(Array.isArray(e)) return e;
+		if((0, a.default)(Object(e))) return function(e, t)
+		{
+			var n = [],
+				r = !0,
+				a = !1,
+				o = void 0;
+			try
+			{
+				for(var s, c = (0, i.default)(e); !(r = (s = c.next())
+					.done) && (n.push(s.value), !t || n.length !== t); r = !0);
+			}
+			catch (e)
+			{
+				a = !0, o = e
+			}
+			finally
+			{
+				try
+				{
+					!r && c.return && c.return()
+				}
+				finally
+				{
+					if(a) throw o
+				}
+			}
+			return n
+		}(e, t);
+		throw new TypeError("Invalid attempt to destructure non-iterable instance")
+	}
+}, function(e, t, n)
+{
 	e.exports = !n(32)((function()
 	{
 		return 7 != Object.defineProperty(
@@ -1000,7 +1000,7 @@ module.exports = function(e)
 }, function(e, t, n)
 {
 	e.exports = {
-		default: n(163),
+		default: n(166),
 		__esModule: !0
 	}
 }, function(e)
@@ -1020,7 +1020,7 @@ module.exports = function(e)
 	}
 }, function(e, t, n)
 {
-	var r = n(20),
+	var r = n(19),
 		a = n(37);
 	e.exports = n(24) ? function(e, t, n)
 	{
@@ -1152,7 +1152,7 @@ module.exports = function(e)
 	}
 }, function(e, t, n)
 {
-	var r = n(20)
+	var r = n(19)
 		.f,
 		a = n(26),
 		i = n(15)("toStringTag");
@@ -1235,20 +1235,20 @@ module.exports = function(e)
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
 	(0, n(8)
-		.default)("386bc111", r, !0,
+		.default)("18aa9754", r, !0,
 	{})
 }, function(e, t, n)
 {
-	var r = n(199);
+	var r = n(200);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
 	(0, n(8)
-		.default)("3c852b3a", r, !0,
+		.default)("00dc0a34", r, !0,
 	{})
 }, function(e, t, n)
 {
-	var r = n(201);
+	var r = n(202);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1257,16 +1257,16 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(203);
+	var r = n(204);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
 	(0, n(8)
-		.default)("0d55fa25", r, !0,
+		.default)("e0eb582a", r, !0,
 	{})
 }, function(e, t, n)
 {
-	var r = n(205);
+	var r = n(206);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1275,7 +1275,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(207);
+	var r = n(208);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1284,16 +1284,16 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(209);
+	var r = n(210);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
 	(0, n(8)
-		.default)("0c458c9a", r, !0,
+		.default)("77183160", r, !0,
 	{})
 }, function(e, t, n)
 {
-	var r = n(211);
+	var r = n(212);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1302,7 +1302,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(213);
+	var r = n(214);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1311,25 +1311,25 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(215);
+	var r = n(216);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
 	(0, n(8)
-		.default)("15fe80bb", r, !0,
+		.default)("cea503f6", r, !0,
 	{})
 }, function(e, t, n)
 {
-	var r = n(217);
+	var r = n(218);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
 	(0, n(8)
-		.default)("742f0c9c", r, !0,
+		.default)("78663e12", r, !0,
 	{})
 }, function(e, t, n)
 {
-	var r = n(219);
+	var r = n(220);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1338,7 +1338,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(221);
+	var r = n(222);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1347,7 +1347,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(226);
+	var r = n(227);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1356,7 +1356,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(228);
+	var r = n(229);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1365,25 +1365,25 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(230);
+	var r = n(231);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
 	(0, n(8)
-		.default)("68939660", r, !0,
+		.default)("1edfe646", r, !0,
 	{})
 }, function(e, t, n)
 {
-	var r = n(232);
+	var r = n(233);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
 	(0, n(8)
-		.default)("3dfbdb33", r, !0,
+		.default)("fa89ba06", r, !0,
 	{})
 }, function(e, t, n)
 {
-	var r = n(234);
+	var r = n(235);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1392,7 +1392,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(236);
+	var r = n(237);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1401,7 +1401,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(241);
+	var r = n(242);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1410,7 +1410,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(243);
+	var r = n(244);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1419,7 +1419,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(245);
+	var r = n(246);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1428,7 +1428,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(247);
+	var r = n(248);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1437,7 +1437,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(249);
+	var r = n(250);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1446,7 +1446,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(251);
+	var r = n(252);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1455,7 +1455,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(253);
+	var r = n(254);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1464,7 +1464,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(255);
+	var r = n(256);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1473,7 +1473,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(257);
+	var r = n(258);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1482,7 +1482,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(259);
+	var r = n(260);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1491,7 +1491,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(265);
+	var r = n(266);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1500,7 +1500,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(267);
+	var r = n(268);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1509,7 +1509,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(269);
+	var r = n(270);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1518,7 +1518,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(271);
+	var r = n(272);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1527,7 +1527,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(275);
+	var r = n(276);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1536,7 +1536,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(277);
+	var r = n(278);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1545,7 +1545,7 @@ module.exports = function(e)
 	{})
 }, function(e, t, n)
 {
-	var r = n(279);
+	var r = n(280);
 	"string" == typeof r && (r = [
 		[e.i, r, ""]
 	]), r.locals && (e.exports = r.locals);
@@ -1644,7 +1644,7 @@ module.exports = function(e)
 		a = n(12),
 		i = n(35),
 		o = n(98),
-		s = n(20)
+		s = n(19)
 		.f;
 	e.exports = function(e)
 	{
@@ -1715,7 +1715,7 @@ module.exports = function(e)
 {
 	"use strict";
 	n.r(t);
-	var r = n(272),
+	var r = n(273),
 		a = {};
 	r.keys()
 		.forEach((function(e)
@@ -1742,7 +1742,7 @@ module.exports = function(e)
 		{
 			default: e
 		}
-	}(n(260));
+	}(n(261));
 	t.default = function(e)
 	{
 		if(Array.isArray(e))
@@ -1843,7 +1843,7 @@ module.exports = function(e)
 	e.exports = n(28)
 }, function(e, t, n)
 {
-	var r = n(21),
+	var r = n(20),
 		a = n(146),
 		i = n(95),
 		o = n(93)("IE_PROTO"),
@@ -1879,7 +1879,7 @@ module.exports = function(e)
 	}
 }, function() {}, function(e, t, n)
 {
-	var r = n(21);
+	var r = n(20);
 	e.exports = function(e, t, n, a)
 	{
 		try
@@ -1903,7 +1903,7 @@ module.exports = function(e)
 	}
 }, function(e, t, n)
 {
-	var r = n(21),
+	var r = n(20),
 		a = n(42),
 		i = n(15)("species");
 	e.exports = function(e, t)
@@ -1994,7 +1994,7 @@ module.exports = function(e)
 	}
 }, function(e, t, n)
 {
-	var r = n(21),
+	var r = n(20),
 		a = n(29),
 		i = n(103);
 	e.exports = function(e, t)
@@ -2085,7 +2085,7 @@ module.exports = function(e)
 }, function(e, t, n)
 {
 	e.exports = {
-		default: n(222),
+		default: n(223),
 		__esModule: !0
 	}
 }, function(e, t, n)
@@ -2098,7 +2098,7 @@ module.exports = function(e)
 		{
 			default: e
 		}
-	}(n(237));
+	}(n(238));
 	t.default = function(e, t, n)
 	{
 		return t in e ? (0, r.default)(e, t,
@@ -2230,8 +2230,8 @@ module.exports = function(e)
 	}
 }, function(e, t, n)
 {
-	var r = n(20),
-		a = n(21),
+	var r = n(19),
+		a = n(20),
 		i = n(31);
 	e.exports = n(24) ? Object.defineProperties : function(e, t)
 	{
@@ -2307,7 +2307,7 @@ module.exports = function(e)
 		v = n(99),
 		m = n(155),
 		g = n(156),
-		x = n(21),
+		x = n(20),
 		b = n(29),
 		y = n(27),
 		w = n(97),
@@ -2315,7 +2315,7 @@ module.exports = function(e)
 		k = n(115),
 		C = n(157),
 		S = n(158),
-		P = n(20),
+		P = n(19),
 		$ = n(31),
 		T = S.f,
 		O = P.f,
@@ -2485,7 +2485,7 @@ module.exports = function(e)
 	var r = n(41)("meta"),
 		a = n(29),
 		i = n(26),
-		o = n(20)
+		o = n(19)
 		.f,
 		s = 0,
 		c = Object.isExtensible || function()
@@ -2609,7 +2609,7 @@ module.exports = function(e)
 	n(44), n(38), e.exports = n(162)
 }, function(e, t, n)
 {
-	var r = n(21),
+	var r = n(20),
 		a = n(101);
 	e.exports = n(12)
 		.getIterator = function(e)
@@ -2620,23 +2620,13 @@ module.exports = function(e)
 		}
 }, function(e, t, n)
 {
-	var r = n(12),
-		a = r.JSON || (r.JSON = {
-			stringify: JSON.stringify
-		});
-	e.exports = function()
-	{
-		return a.stringify.apply(a, arguments)
-	}
-}, function(e, t, n)
-{
 	e.exports = {
-		default: n(165),
+		default: n(164),
 		__esModule: !0
 	}
 }, function(e, t, n)
 {
-	n(44), n(38), e.exports = n(166)
+	n(44), n(38), e.exports = n(165)
 }, function(e, t, n)
 {
 	var r = n(102),
@@ -2648,6 +2638,16 @@ module.exports = function(e)
 			var t = Object(e);
 			return void 0 !== t[a] || "@@iterator" in t || i.hasOwnProperty(r(t))
 		}
+}, function(e, t, n)
+{
+	var r = n(12),
+		a = r.JSON || (r.JSON = {
+			stringify: JSON.stringify
+		});
+	e.exports = function()
+	{
+		return a.stringify.apply(a, arguments)
+	}
 }, function(e, t, n)
 {
 	n(118), n(38), n(44), n(168), n(176), n(177), e.exports = n(12)
@@ -2908,7 +2908,7 @@ module.exports = function(e)
 	var r = n(36),
 		a = n(119),
 		i = n(120),
-		o = n(21),
+		o = n(20),
 		s = n(91),
 		c = n(101),
 		d = {},
@@ -3038,7 +3038,7 @@ module.exports = function(e)
 	"use strict";
 	var r = n(14),
 		a = n(12),
-		i = n(20),
+		i = n(19),
 		o = n(24),
 		s = n(15)("species");
 	e.exports = function(e)
@@ -3605,10 +3605,13 @@ module.exports = function(e)
 }, function(e, t, n)
 {
 	(e.exports = n(7)(!1))
-	.push([e.i, ".main-light[data-v-00bc43e6]{-webkit-app-region:drag;height:25px;width:100vw;background-color:#ebebeb;color:#000;display:flex;justify-content:space-between;align-items:center}.main-light .empty[data-v-00bc43e6]{flex-grow:1}.main-dark[data-v-00bc43e6]{-webkit-app-region:drag;height:25px;width:100vw;background-color:#343442;color:#fff;display:flex;justify-content:space-between;align-items:center}.main-dark .empty[data-v-00bc43e6]{flex-grow:1}.main-red[data-v-00bc43e6]{-webkit-app-region:drag;height:25px;width:100vw;background-color:#e8a84a;color:#d33928;display:flex;justify-content:space-between;align-items:center}.main-red .empty[data-v-00bc43e6]{flex-grow:1}.title[data-v-00bc43e6]{font-size:.75em;font-weight:100;letter-spacing:1px}.close-light[data-v-00bc43e6]{-webkit-app-region:no-drag;cursor:pointer;padding:0 7px;height:100%;display:flex;align-items:center}.close-light>img[data-v-00bc43e6]{cursor:pointer;height:20px;width:20px}.close-light[data-v-00bc43e6]:hover{background-color:rgba(50,50,50,.2)}.close-dark[data-v-00bc43e6]{-webkit-app-region:no-drag;cursor:pointer;padding:0 7px;height:100%;display:flex;align-items:center}.close-dark>img[data-v-00bc43e6]{cursor:pointer;height:20px;width:20px}.close-dark[data-v-00bc43e6]:hover{background-color:hsla(0,0%,98%,.2)}.close-red[data-v-00bc43e6]{-webkit-app-region:no-drag;cursor:pointer;padding:0 7px;height:100%;display:flex;align-items:center}.close-red>img[data-v-00bc43e6]{cursor:pointer;height:20px;width:20px}.close-red[data-v-00bc43e6]:hover{background-color:hsla(0,0%,98%,.2)}.icon[data-v-00bc43e6]{padding:0;margin-left:10px;background-color:#f3f3f3;width:20px;height:20px;border-radius:1px}.icon>img[data-v-00bc43e6]{width:20px;height:20px}", ""])
+	.push([e.i, ".main-light[data-v-57afb86e]{-webkit-app-region:drag;height:25px;width:100vw;background-color:#ebebeb;color:#000;display:flex;justify-content:space-between;align-items:center}.main-light .empty[data-v-57afb86e]{flex-grow:1}.main-dark[data-v-57afb86e]{-webkit-app-region:drag;height:25px;width:100vw;background-color:#343442;color:#fff;display:flex;justify-content:space-between;align-items:center}.main-dark .empty[data-v-57afb86e]{flex-grow:1}.main-red[data-v-57afb86e]{-webkit-app-region:drag;height:25px;width:100vw;background-color:#e8a84a;color:#d33928;display:flex;justify-content:space-between;align-items:center}.main-red .empty[data-v-57afb86e]{flex-grow:1}.title[data-v-57afb86e]{font-size:.75em;font-weight:100;letter-spacing:1px}.close-light[data-v-57afb86e]{-webkit-app-region:no-drag;cursor:pointer;padding:0 7px;height:100%;display:flex;align-items:center}.close-light>img[data-v-57afb86e]{cursor:pointer;height:20px;width:20px}.close-light[data-v-57afb86e]:hover{background-color:rgba(50,50,50,.2)}.close-dark[data-v-57afb86e]{-webkit-app-region:no-drag;cursor:pointer;padding:0 7px;height:100%;display:flex;align-items:center}.close-dark>img[data-v-57afb86e]{cursor:pointer;height:20px;width:20px}.close-dark[data-v-57afb86e]:hover{background-color:hsla(0,0%,98%,.2)}.close-red[data-v-57afb86e]{-webkit-app-region:no-drag;cursor:pointer;padding:0 7px;height:100%;display:flex;align-items:center}.close-red>img[data-v-57afb86e]{cursor:pointer;height:20px;width:20px}.close-red[data-v-57afb86e]:hover{background-color:hsla(0,0%,98%,.2)}.icon[data-v-57afb86e]{padding:0;margin-left:10px;background-color:#f3f3f3;width:20px;height:20px;border-radius:1px}.icon>img[data-v-57afb86e]{width:20px;height:20px}", ""])
 }, function(e)
 {
 	e.exports = require("util")
+}, function(e)
+{
+	e.exports = require("is-admin")
 }, function(e)
 {
 	e.exports = require("ws")
@@ -3621,7 +3624,7 @@ module.exports = function(e)
 }, function(e, t, n)
 {
 	(e.exports = n(7)(!1))
-	.push([e.i, ".theme-light[data-v-7bdb35fd]{background-color:#fff;color:#000}.theme-dark[data-v-7bdb35fd]{background-color:#2c2a38;color:#fff}.theme-red[data-v-7bdb35fd]{background-color:#f8b74f;color:#d33928}.wrapper[data-v-7bdb35fd]{height:100vh;width:100vw;overflow:hidden}", ""])
+	.push([e.i, ".theme-light[data-v-1b7d895e]{background-color:#fff;color:#000}.theme-dark[data-v-1b7d895e]{background-color:#2c2a38;color:#fff}.theme-red[data-v-1b7d895e]{background-color:#f8b74f;color:#d33928}.wrapper[data-v-1b7d895e]{height:100vh;width:100vw;overflow:hidden}", ""])
 }, function(e, t, n)
 {
 	"use strict";
@@ -3641,7 +3644,7 @@ module.exports = function(e)
 }, function(e, t, n)
 {
 	(e.exports = n(7)(!1))
-	.push([e.i, "main[data-v-7bdb35fd]{display:flex;justify-content:space-between}.left-side[data-v-7bdb35fd]{display:flex;flex-direction:column;width:170px;height:calc(100vh - 25px)}.right-side[data-v-7bdb35fd]{flex-grow:1;width:calc(100vw - 170px);height:calc(100vh - 25px)}.welcome[data-v-7bdb35fd]{color:#555;font-size:23px;margin-bottom:10px}.title[data-v-7bdb35fd]{color:#2c3e50;font-size:20px;font-weight:700;margin-bottom:6px}.title.alt[data-v-7bdb35fd]{font-size:18px;margin-bottom:10px}.doc p[data-v-7bdb35fd]{color:#000;margin-bottom:10px}.doc button[data-v-7bdb35fd]{font-size:.8em;cursor:pointer;outline:none;padding:.75em 2em;border-radius:2em;display:inline-block;color:#fff;background-color:#4fc08d;transition:all .15s ease;box-sizing:border-box;border:1px solid #4fc08d}.doc button.alt[data-v-7bdb35fd]{color:#42b983;background-color:transparent}.clash-status-main[data-v-7bdb35fd]{display:flex;align-items:center;position:absolute;height:40px;bottom:0;width:170px;left:0;justify-content:center}.clash-status-hint[data-v-7bdb35fd]{margin-left:6px;font-size:.75em;letter-spacing:0;cursor:pointer}.clash-status-icon[data-v-7bdb35fd]{width:12px;height:12px;border-radius:10px}.clash-running[data-v-7bdb35fd]{background-color:#41b883}.clash-set-dns[data-v-7bdb35fd]{background-color:#e7d91a}.clash-stopped[data-v-7bdb35fd]{background-color:red}.cloud[data-v-7bdb35fd]{left:20vw;top:20vh;height:150vh}.cloud[data-v-7bdb35fd],.latern[data-v-7bdb35fd]{position:fixed;opacity:.1;width:100vw;pointer-events:none}.latern[data-v-7bdb35fd]{top:-180px}", ""])
+	.push([e.i, "main[data-v-1b7d895e]{display:flex;justify-content:space-between}.left-side[data-v-1b7d895e]{display:flex;flex-direction:column;width:170px;height:calc(100vh - 25px)}.right-side[data-v-1b7d895e]{flex-grow:1;width:calc(100vw - 170px);height:calc(100vh - 25px)}.welcome[data-v-1b7d895e]{color:#555;font-size:23px;margin-bottom:10px}.title[data-v-1b7d895e]{color:#2c3e50;font-size:20px;font-weight:700;margin-bottom:6px}.title.alt[data-v-1b7d895e]{font-size:18px;margin-bottom:10px}.doc p[data-v-1b7d895e]{color:#000;margin-bottom:10px}.doc button[data-v-1b7d895e]{font-size:.8em;cursor:pointer;outline:none;padding:.75em 2em;border-radius:2em;display:inline-block;color:#fff;background-color:#4fc08d;transition:all .15s ease;box-sizing:border-box;border:1px solid #4fc08d}.doc button.alt[data-v-1b7d895e]{color:#42b983;background-color:transparent}.clash-status-main[data-v-1b7d895e]{display:flex;align-items:center;position:absolute;height:40px;bottom:0;width:170px;left:0;justify-content:center}.clash-status-hint[data-v-1b7d895e]{margin-left:6px;font-size:.75em;letter-spacing:0;cursor:pointer}.clash-status-icon[data-v-1b7d895e]{width:12px;height:12px;border-radius:10px}.clash-running[data-v-1b7d895e]{background-color:#41b883}.clash-set-dns[data-v-1b7d895e]{background-color:#e7d91a}.clash-stopped[data-v-1b7d895e]{background-color:red}.cloud[data-v-1b7d895e]{left:20vw;top:20vh;height:150vh}.cloud[data-v-1b7d895e],.latern[data-v-1b7d895e]{position:fixed;opacity:.1;width:100vw;pointer-events:none}.latern[data-v-1b7d895e]{top:-180px}", ""])
 }, function(e, t, n)
 {
 	"use strict";
@@ -3671,7 +3674,7 @@ module.exports = function(e)
 }, function(e, t, n)
 {
 	(e.exports = n(7)(!1))
-	.push([e.i, ".main-light[data-v-56f079ee]{border:2px solid #c7bfbf;background-color:#c7bfbf;border-radius:40px;width:34px;height:20px;box-shadow:0 0 5px 1px rgba(50,50,50,0)}.main-light [data-v-56f079ee]{cursor:pointer}.main-dark[data-v-56f079ee]{border:2px solid #413c3c;background-color:#413c3c;border-radius:40px;width:34px;height:20px;box-shadow:0 0 5px 1px rgba(50,50,50,0)}.main-dark [data-v-56f079ee]{cursor:pointer}.main-red[data-v-56f079ee]{border:2px solid #d39126;background-color:#d39126;border-radius:40px;width:34px;height:20px;box-shadow:0 0 5px 1px rgba(50,50,50,0)}.main-red [data-v-56f079ee]{cursor:pointer}.text[data-v-56f079ee]{display:flex;justify-content:space-between;align-items:center;width:calc(100% - 4px);height:calc(100% - 4px);margin:2px}.base[data-v-56f079ee]{width:calc(100% - 17px);height:100%}.text-font[data-v-56f079ee]{letter-spacing:0;text-align:center;font-size:12px;margin-bottom:8px;color:#fff}.text-on[data-v-56f079ee]{margin-bottom:10px;margin-left:2px}.text-off[data-v-56f079ee]{margin-bottom:8px;margin-right:4px}.tint-right[data-v-56f079ee]{background-color:#d44545;border-radius:20px;width:12px}.tint-left[data-v-56f079ee]{background-color:#13af42;border-radius:20px;width:12px}", ""])
+	.push([e.i, ".main-light[data-v-07732e26]{border:2px solid #c7bfbf;background-color:#c7bfbf;border-radius:40px;width:34px;height:20px;box-shadow:0 0 5px 1px rgba(50,50,50,0);display:flex;padding:0 2px;align-items:center}.main-light [data-v-07732e26]{cursor:pointer}.main-dark[data-v-07732e26]{border:2px solid #413c3c;background-color:#413c3c;border-radius:40px;width:34px;height:20px;box-shadow:0 0 5px 1px rgba(50,50,50,0);display:flex;padding:0 2px;align-items:center}.main-dark [data-v-07732e26]{cursor:pointer}.main-red[data-v-07732e26]{border:2px solid #d39126;background-color:#d39126;border-radius:40px;width:34px;height:20px;box-shadow:0 0 5px 1px rgba(50,50,50,0);display:flex;padding:0 2px;align-items:center}.main-red [data-v-07732e26]{cursor:pointer}.text[data-v-07732e26]{display:flex;justify-content:space-between;align-items:center;width:calc(100% - 0px);height:calc(100% - 4px)}.base[data-v-07732e26]{width:calc(100% - 17px);height:100%}.text-font[data-v-07732e26]{letter-spacing:0;text-align:center;font-size:12px;margin-bottom:8px;color:#fff}.tint-right[data-v-07732e26]{background-color:#d44545;border-radius:20px;width:12px}.tint-left[data-v-07732e26]{background-color:#13af42;border-radius:20px;width:12px}.move-left-enter-active[data-v-07732e26]{transition:all .2s ease}.move-left-leave-active[data-v-07732e26]{transition:all .1s ease-out}.move-left-enter[data-v-07732e26],.move-left-leave-to[data-v-07732e26]{transform:translateX(-10px);opacity:0}.move-right-enter-active[data-v-07732e26]{transition:all .2s ease}.move-right-leave-active[data-v-07732e26]{transition:all .1s ease-out}.move-right-enter[data-v-07732e26],.move-right-leave-to[data-v-07732e26]{transform:translateX(10px);opacity:0}", ""])
 }, function(e, t, n)
 {
 	"use strict";
@@ -3701,7 +3704,7 @@ module.exports = function(e)
 }, function(e, t, n)
 {
 	(e.exports = n(7)(!1))
-	.push([e.i, ".item-light[data-v-44cf6046]{background-color:#f1f1f1}.item-dark[data-v-44cf6046],.item-light[data-v-44cf6046]{padding:15px 0;font-size:1.1em;display:flex;flex-direction:column;align-items:center;justify-content:space-around;border-bottom-right-radius:5px;border-top-left-radius:5px;border-top-right-radius:10px;border-bottom-left-radius:10px}.item-dark[data-v-44cf6046]{background-color:#606068}.item-red[data-v-44cf6046]{padding:15px 0;font-size:1.1em;display:flex;flex-direction:column;align-items:center;justify-content:space-around;background-color:#eda94c;border-bottom-right-radius:5px;border-top-left-radius:5px;border-top-right-radius:10px;border-bottom-left-radius:10px}.title-light[data-v-44cf6046]{color:#2c3e50}.title-dark[data-v-44cf6046],.title-light[data-v-44cf6046]{font-size:2em;font-weight:500;cursor:pointer;display:flex;align-items:center}.title-dark[data-v-44cf6046]{color:#e9e9e9}.title-red[data-v-44cf6046]{color:#b72d29;font-size:2em;font-weight:500;cursor:pointer;display:flex;align-items:center}.clickable-light[data-v-44cf6046]{cursor:pointer;border-bottom-style:dashed;border-bottom-width:1px;border-bottom-color:rgba(50,50,50,.2)}.clickable-dark[data-v-44cf6046]{border-bottom-color:#959595}.clickable-dark[data-v-44cf6046],.clickable-red[data-v-44cf6046]{cursor:pointer;border-bottom-style:dashed;border-bottom-width:1px}.clickable-red[data-v-44cf6046]{border-bottom-color:rgba(218,20,30,.247059)}.interfaces-card-light[data-v-44cf6046]{position:absolute;margin-left:-170px;background-color:#fff;padding:10px 20px;border-radius:5px;max-height:50vh;overflow-y:scroll;box-shadow:1px 1px 10px 2px rgba(50,50,50,.3)}.interfaces-card-light[data-v-44cf6046]::-webkit-scrollbar{width:10px}.interfaces-card-light[data-v-44cf6046]::-webkit-scrollbar-thumb{background-color:#cac8c6}.interfaces-card-dark[data-v-44cf6046]{position:absolute;margin-left:-170px;background-color:#686675;padding:10px 20px;border-radius:5px;max-height:50vh;overflow-y:scroll;box-shadow:1px 1px 10px 2px rgba(50,50,50,.3)}.interfaces-card-dark[data-v-44cf6046]::-webkit-scrollbar{width:10px}.interfaces-card-dark[data-v-44cf6046]::-webkit-scrollbar-thumb{background-color:#4d4d5a}.interfaces-card-red[data-v-44cf6046]{position:absolute;margin-left:-170px;background-color:#ca2b33;padding:10px 20px;border-radius:5px;max-height:50vh;overflow-y:scroll;box-shadow:1px 1px 10px 2px rgba(50,50,50,.3)}.interfaces-card-red[data-v-44cf6046]::-webkit-scrollbar{width:10px}.interfaces-card-red[data-v-44cf6046]::-webkit-scrollbar-thumb{background-color:rgba(183,46,41,.643137)}.interfaces-content-light[data-v-44cf6046]{color:#17224f;display:flex;align-items:flex-end;margin:10px 0}.interfaces-content-dark[data-v-44cf6046],.interfaces-content-red[data-v-44cf6046]{color:#fff;display:flex;align-items:flex-end;margin:10px 0}", ""])
+	.push([e.i, ".item-light[data-v-2d1c3abe]{background-color:#f1f1f1}.item-dark[data-v-2d1c3abe],.item-light[data-v-2d1c3abe]{padding:15px 0;font-size:1.1em;display:flex;flex-direction:column;align-items:center;justify-content:space-around;border-bottom-right-radius:5px;border-top-left-radius:5px;border-top-right-radius:10px;border-bottom-left-radius:10px}.item-dark[data-v-2d1c3abe]{background-color:#606068}.item-red[data-v-2d1c3abe]{padding:15px 0;font-size:1.1em;display:flex;flex-direction:column;align-items:center;justify-content:space-around;background-color:#eda94c;border-bottom-right-radius:5px;border-top-left-radius:5px;border-top-right-radius:10px;border-bottom-left-radius:10px}.title-light[data-v-2d1c3abe]{color:#2c3e50}.title-dark[data-v-2d1c3abe],.title-light[data-v-2d1c3abe]{font-size:2em;font-weight:500;cursor:pointer;display:flex;align-items:center}.title-dark[data-v-2d1c3abe]{color:#e9e9e9}.title-red[data-v-2d1c3abe]{color:#b72d29;font-size:2em;font-weight:500;cursor:pointer;display:flex;align-items:center}.clickable-light[data-v-2d1c3abe]{cursor:pointer;border-bottom-style:dashed;border-bottom-width:1px;border-bottom-color:rgba(50,50,50,.2)}.clickable-dark[data-v-2d1c3abe]{border-bottom-color:#959595}.clickable-dark[data-v-2d1c3abe],.clickable-red[data-v-2d1c3abe]{cursor:pointer;border-bottom-style:dashed;border-bottom-width:1px}.clickable-red[data-v-2d1c3abe]{border-bottom-color:rgba(218,20,30,.247059)}.interfaces-card-light[data-v-2d1c3abe]{position:fixed;left:calc(170px + (100vw - 170px) / 2);transform:translate(-50%);bottom:20px;background-color:#fff;padding:10px 30px;border-radius:5px;max-height:50vh;overflow-y:scroll;box-shadow:1px 1px 10px 2px rgba(50,50,50,.3)}.interfaces-card-light[data-v-2d1c3abe]::-webkit-scrollbar{width:10px}.interfaces-card-light[data-v-2d1c3abe]::-webkit-scrollbar-thumb{background-color:#cac8c6}.interfaces-card-dark[data-v-2d1c3abe]{position:fixed;left:calc(170px + (100vw - 170px) / 2);transform:translate(-50%);bottom:20px;background-color:#686675;padding:10px 30px;border-radius:5px;max-height:50vh;overflow-y:scroll;box-shadow:1px 1px 10px 2px rgba(50,50,50,.3)}.interfaces-card-dark[data-v-2d1c3abe]::-webkit-scrollbar{width:10px}.interfaces-card-dark[data-v-2d1c3abe]::-webkit-scrollbar-thumb{background-color:#4d4d5a}.interfaces-card-red[data-v-2d1c3abe]{position:fixed;left:calc(170px + (100vw - 170px) / 2);transform:translate(-50%);bottom:20px;background-color:#ca2b33;padding:10px 30px;border-radius:5px;max-height:50vh;overflow-y:scroll;box-shadow:1px 1px 10px 2px rgba(50,50,50,.3)}.interfaces-card-red[data-v-2d1c3abe]::-webkit-scrollbar{width:10px}.interfaces-card-red[data-v-2d1c3abe]::-webkit-scrollbar-thumb{background-color:rgba(183,46,41,.643137)}.interfaces-content-light[data-v-2d1c3abe]{color:#17224f;display:flex;align-items:flex-end;margin:10px 0}.interfaces-content-dark[data-v-2d1c3abe],.interfaces-content-red[data-v-2d1c3abe]{color:#fff;display:flex;align-items:flex-end;margin:10px 0}", ""])
 }, function(e, t, n)
 {
 	"use strict";
@@ -3711,7 +3714,7 @@ module.exports = function(e)
 }, function(e, t, n)
 {
 	(e.exports = n(7)(!1))
-	.push([e.i, '#main-general-view[data-v-44cf6046]{display:flex;flex-direction:column;justify-content:space-between;height:calc(100vh - 25px)}.header[data-v-44cf6046]{margin-top:10px;display:flex;height:100px;width:calc(100vw - 170px);justify-content:center;align-items:center}.icon[data-v-44cf6046]{width:90px;height:90px;margin-right:20px}.title-name[data-v-44cf6046]{display:inline-block;cursor:pointer}.new-version-tag[data-v-44cf6046]{display:inline-block;color:#fff;padding:2px 4px;background-color:rgba(170,38,38,.8);border-radius:3px;font-size:.65em;position:relative;top:-8px;left:2px}.content[data-v-44cf6046]{flex-grow:1;overflow:hidden;display:grid;margin:0 auto;width:70vw;max-width:790px;grid-template-columns:repeat(3,1fr);grid-row-gap:15px;grid-column-gap:20px;grid-auto-rows:minmax(95px,115px)}.item-left[data-v-44cf6046]{font-weight:500;font-size:1em}.item-right[data-v-44cf6046]{font-size:15px;font-weight:400;display:flex;align-items:center}.control-icon[data-v-44cf6046]{width:20px;height:20px;margin-right:10px;margin-top:2px;cursor:pointer}.item-path[data-v-44cf6046]{max-width:150px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.systemCheckbox[data-v-44cf6046]{width:20px;height:20px}.systemCheckbox[data-v-44cf6046]:checked{background-color:#233376;border:none}.hiddenInput[data-v-44cf6046]{width:1px;height:1px;opacity:0}.version[data-v-44cf6046]{font-size:.5em;margin-left:10px;font-weight:400;cursor:pointer;margin-top:15px}.checkmark-container[data-v-44cf6046]{display:block;position:relative;padding-left:22px;margin-bottom:22px;cursor:pointer;font-size:22px}.checkmark-container input[data-v-44cf6046]{position:absolute;opacity:0;cursor:pointer;height:0;width:0}.system-checkmark[data-v-44cf6046]{cursor:pointer;position:absolute;top:0;border-radius:20px;left:0;height:25px;width:25px;background-color:#fff;box-shadow:0 0 5px 1px rgba(50,50,50,.5)}.checkmark-container:hover input~.system-checkmark[data-v-44cf6046]{background-color:#fff}.checkmark-container input:checked~.system-checkmark[data-v-44cf6046]{background-color:#464646}.system-checkmark-unknown[data-v-44cf6046]{background-color:#beb9b9}.system-checkmark[data-v-44cf6046]:after{content:"";position:absolute;display:none}.checkmark-container input:checked~.system-checkmark[data-v-44cf6046]:after{display:block}.checkmark-container .system-checkmark[data-v-44cf6046]:after{left:8px;top:5px;width:6px;height:9px;border:solid #fff;border-width:0 3px 3px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}.interface-address[data-v-44cf6046]{font-size:1em}.interface-name[data-v-44cf6046]{font-size:.8em;margin-left:15px}.edit-btn[data-v-44cf6046]{width:25px;height:25px;border-radius:4px;cursor:pointer;background-color:#464646;box-shadow:0 0 5px 1px rgba(50,50,50,.3)}.edit-btn>img[data-v-44cf6046]{width:17px;height:17px;margin:5px;cursor:pointer}.empty-div[data-v-44cf6046]{height:50px}', ""])
+	.push([e.i, '#main-general-view[data-v-2d1c3abe]{display:flex;flex-direction:column;justify-content:space-between;height:calc(100vh - 25px)}.header[data-v-2d1c3abe]{margin-top:10px;display:flex;height:100px;width:calc(100vw - 170px);justify-content:center;align-items:center}.icon[data-v-2d1c3abe]{width:90px;height:90px;margin-right:20px}.title-name[data-v-2d1c3abe]{display:inline-block;cursor:pointer}.new-version-tag[data-v-2d1c3abe]{display:inline-block;color:#fff;padding:2px 4px;background-color:rgba(170,38,38,.8);border-radius:3px;font-size:.65em;position:relative;top:-8px;left:2px}.content[data-v-2d1c3abe]{flex-grow:1;overflow:hidden;display:grid;margin:0 auto;width:70vw;max-width:790px;grid-template-columns:repeat(3,1fr);grid-row-gap:15px;grid-column-gap:20px;grid-auto-rows:minmax(95px,115px)}.item-left[data-v-2d1c3abe]{font-weight:500;font-size:1em}.item-right[data-v-2d1c3abe]{font-size:15px;font-weight:400;display:flex;align-items:center}.control-icon[data-v-2d1c3abe]{width:20px;height:20px;margin-right:10px;margin-top:2px;cursor:pointer}.item-path[data-v-2d1c3abe]{max-width:150px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.systemCheckbox[data-v-2d1c3abe]{width:20px;height:20px}.systemCheckbox[data-v-2d1c3abe]:checked{background-color:#233376;border:none}.hiddenInput[data-v-2d1c3abe]{width:1px;height:1px;opacity:0}.version[data-v-2d1c3abe]{font-size:.5em;margin-left:10px;font-weight:400;cursor:pointer;margin-top:15px}.checkmark-container[data-v-2d1c3abe]{display:block;position:relative;padding-left:22px;margin-bottom:22px;cursor:pointer;font-size:22px}.checkmark-container input[data-v-2d1c3abe]{position:absolute;opacity:0;cursor:pointer;height:0;width:0}.system-checkmark[data-v-2d1c3abe]{cursor:pointer;position:absolute;top:0;border-radius:20px;left:0;height:25px;width:25px;background-color:#fff;box-shadow:0 0 5px 1px rgba(50,50,50,.5)}.checkmark-container:hover input~.system-checkmark[data-v-2d1c3abe]{background-color:#fff}.checkmark-container input:checked~.system-checkmark[data-v-2d1c3abe]{background-color:#464646}.system-checkmark-unknown[data-v-2d1c3abe]{background-color:#beb9b9}.system-checkmark[data-v-2d1c3abe]:after{content:"";position:absolute;display:none}.checkmark-container input:checked~.system-checkmark[data-v-2d1c3abe]:after{display:block}.checkmark-container .system-checkmark[data-v-2d1c3abe]:after{left:8px;top:5px;width:6px;height:9px;border:solid #fff;border-width:0 3px 3px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}.interface-address[data-v-2d1c3abe]{font-size:1em}.interface-name[data-v-2d1c3abe]{font-size:.8em;margin-left:15px}.edit-btn[data-v-2d1c3abe]{width:25px;height:25px;border-radius:4px;cursor:pointer;background-color:#464646;box-shadow:0 0 5px 1px rgba(50,50,50,.3)}.edit-btn>img[data-v-2d1c3abe]{width:17px;height:17px;margin:5px;cursor:pointer}.empty-div[data-v-2d1c3abe]{height:50px}', ""])
 }, function(e, t, n)
 {
 	"use strict";
@@ -3734,12 +3737,12 @@ module.exports = function(e)
 	.push([e.i, "", ""])
 }, function(e, t, n)
 {
-	n(223), e.exports = n(12)
+	n(224), e.exports = n(12)
 		.Object.entries
 }, function(e, t, n)
 {
 	var r = n(18),
-		a = n(224)(!0);
+		a = n(225)(!0);
 	r(r.S, "Object",
 	{
 		entries: function(e)
@@ -3790,7 +3793,7 @@ module.exports = function(e)
 }, function(e, t, n)
 {
 	(e.exports = n(7)(!1))
-	.push([e.i, ".fake-item-light[data-v-0d42d080]{height:45px;background-color:#e3e3e3;box-shadow:none}.fake-item-dark[data-v-0d42d080]{height:45px;background-color:#32323f;box-shadow:none}.fake-item-red[data-v-0d42d080]{height:45px;background-color:#c28f3d;box-shadow:none}.fake-section-light[data-v-0d42d080]{background-color:#e3e3e3;height:50px;width:300px;margin-top:20px;margin-left:40px}.fake-section-dark[data-v-0d42d080]{background-color:#32323f;height:50px;width:300px;margin-top:20px;margin-left:40px}.fake-section-red[data-v-0d42d080]{background-color:#c28f3d;height:50px;width:300px;margin-top:20px;margin-left:40px}#main-proxy-view[data-v-0d42d080]{height:100%;display:flex;flex-direction:column;overflow:hidden}.scroll-view-light[data-v-0d42d080]{padding-bottom:70px;height:calc(100% - 77px);overflow-y:scroll}.scroll-view-light[data-v-0d42d080]::-webkit-scrollbar{width:10px}.scroll-view-light[data-v-0d42d080]::-webkit-scrollbar-thumb{background-color:#cac8c6}.scroll-view-dark[data-v-0d42d080]{padding-bottom:70px;height:calc(100% - 77px);overflow-y:scroll}.scroll-view-dark[data-v-0d42d080]::-webkit-scrollbar{width:10px}.scroll-view-dark[data-v-0d42d080]::-webkit-scrollbar-thumb{background-color:#4d4d5a}.scroll-view-red[data-v-0d42d080]{padding-bottom:70px;height:calc(100% - 77px);overflow-y:scroll}.scroll-view-red[data-v-0d42d080]::-webkit-scrollbar{width:10px}.scroll-view-red[data-v-0d42d080]::-webkit-scrollbar-thumb{background-color:rgba(183,46,41,.643137)}.proxy-item[data-v-0d42d080]{width:290px;margin:4px 5px;background-color:#32323f;padding:7px 0 7px 14px;display:flex;color:#fff;justify-content:space-between;align-items:center;border-radius:3px;flex-grow:1}.proxy-item .left[data-v-0d42d080]{flex-grow:1}", ""])
+	.push([e.i, ".fake-item-light[data-v-3f215f52]{height:45px;background-color:#e3e3e3;box-shadow:none}.fake-item-dark[data-v-3f215f52]{height:45px;background-color:#32323f;box-shadow:none}.fake-item-red[data-v-3f215f52]{height:45px;background-color:#c28f3d;box-shadow:none}.fake-section-light[data-v-3f215f52]{background-color:#e3e3e3;height:50px;width:300px;margin-top:20px;margin-left:40px}.fake-section-dark[data-v-3f215f52]{background-color:#32323f;height:50px;width:300px;margin-top:20px;margin-left:40px}.fake-section-red[data-v-3f215f52]{background-color:#c28f3d;height:50px;width:300px;margin-top:20px;margin-left:40px}#main-proxy-view[data-v-3f215f52]{height:100%;display:flex;flex-direction:column;overflow:hidden}.scroll-view-light[data-v-3f215f52]{padding-bottom:70px;height:calc(100% - 77px);overflow-y:scroll}.scroll-view-light[data-v-3f215f52]::-webkit-scrollbar{width:10px}.scroll-view-light[data-v-3f215f52]::-webkit-scrollbar-thumb{background-color:#cac8c6}.scroll-view-dark[data-v-3f215f52]{padding-bottom:70px;height:calc(100% - 77px);overflow-y:scroll}.scroll-view-dark[data-v-3f215f52]::-webkit-scrollbar{width:10px}.scroll-view-dark[data-v-3f215f52]::-webkit-scrollbar-thumb{background-color:#4d4d5a}.scroll-view-red[data-v-3f215f52]{padding-bottom:70px;height:calc(100% - 77px);overflow-y:scroll}.scroll-view-red[data-v-3f215f52]::-webkit-scrollbar{width:10px}.scroll-view-red[data-v-3f215f52]::-webkit-scrollbar-thumb{background-color:rgba(183,46,41,.643137)}.proxy-item[data-v-3f215f52]{width:290px;margin:4px 5px;background-color:#32323f;padding:7px 0 7px 14px;display:flex;color:#fff;justify-content:space-between;align-items:center;border-radius:3px;flex-grow:1}.proxy-item .left[data-v-3f215f52]{flex-grow:1}", ""])
 }, function(e, t, n)
 {
 	"use strict";
@@ -3800,7 +3803,7 @@ module.exports = function(e)
 }, function(e, t, n)
 {
 	(e.exports = n(7)(!1))
-	.push([e.i, ".proxy-list[data-v-0d42d080]{margin:20px 30px 0 40px}.proxy-items[data-v-0d42d080]{display:flex;flex-wrap:wrap;justify-content:space-around}.proxy-items>i[data-v-0d42d080]{width:290px;margin:0 5px;flex-grow:1;height:0}.item-hint[data-v-0d42d080]{font-size:.75em;margin-top:3px}.item-name[data-v-0d42d080]{font-size:.9em;display:flex;align-items:center;overflow:hidden}.proxy-hint[data-v-0d42d080]{font-size:.7em;display:inline;margin-left:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.selected[data-v-0d42d080]{background-color:#42424e}.proxy-section[data-v-0d42d080]{font-size:1.2em;font-weight:400;margin-top:10px;margin-bottom:10px;display:flex;align-items:flex-end;justify-content:space-between;cursor:pointer}.proxy-section-name[data-v-0d42d080]{font-size:1.05em;display:flex;align-items:flex-end;max-width:500px}.proxy-section-name-left[data-v-0d42d080]{flex-shrink:0;height:27px}.proxy-section-test-btn[data-v-0d42d080]{cursor:pointer;height:30px;width:30px}.proxy-section-right[data-v-0d42d080]{display:flex;align-items:flex-end;height:100%}.proxy-section-right>img[data-v-0d42d080]{height:20px;width:20px;margin-left:10px;cursor:pointer}.clickable>div[data-v-0d42d080],.clickable[data-v-0d42d080]{cursor:pointer}.offline[data-v-0d42d080]{color:#ff9595;font-weight:400}.time[data-v-0d42d080]{min-width:70px;text-align:right;font-size:.75em;padding:12px 14px 12px 12px;cursor:pointer}#floating-eye[data-v-0d42d080]{height:30px;width:30px;padding:5px;border-radius:20px;box-shadow:0 0 2px 3px rgba(84,84,133,.35);background-color:#fff;position:absolute;right:55px;bottom:35px;cursor:pointer}#floating-eye>img[data-v-0d42d080]{cursor:pointer;height:20px;width:20px}", ""])
+	.push([e.i, ".proxy-list[data-v-3f215f52]{margin:20px 30px 0 40px}.proxy-items[data-v-3f215f52]{display:flex;flex-wrap:wrap;justify-content:space-around}.proxy-items>i[data-v-3f215f52]{width:290px;margin:0 5px;flex-grow:1;height:0}.item-hint[data-v-3f215f52]{font-size:.75em;margin-top:3px}.item-name[data-v-3f215f52]{font-size:.9em;display:flex;align-items:center;overflow:hidden}.proxy-hint[data-v-3f215f52]{font-size:.7em;display:inline;margin-left:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.selected[data-v-3f215f52]{background-color:#42424e}.proxy-section[data-v-3f215f52]{font-size:1.2em;font-weight:400;margin-top:10px;margin-bottom:10px;display:flex;align-items:flex-end;justify-content:space-between;cursor:pointer}.proxy-section-name[data-v-3f215f52]{font-size:1.05em;display:flex;align-items:flex-end;max-width:500px}.proxy-section-name-left[data-v-3f215f52]{flex-shrink:0;height:27px}.proxy-section-test-btn[data-v-3f215f52]{cursor:pointer;height:30px;width:30px}.proxy-section-right[data-v-3f215f52]{display:flex;align-items:flex-end;height:100%}.proxy-section-right>img[data-v-3f215f52]{height:20px;width:20px;margin-left:10px;cursor:pointer}.clickable>div[data-v-3f215f52],.clickable[data-v-3f215f52]{cursor:pointer}.offline[data-v-3f215f52]{color:#ff9595;font-weight:400}.time[data-v-3f215f52]{min-width:70px;text-align:right;font-size:.75em;padding:12px 14px 12px 12px;cursor:pointer}#floating-eye[data-v-3f215f52]{height:30px;width:30px;padding:5px;border-radius:20px;box-shadow:0 0 2px 3px rgba(84,84,133,.35);background-color:#fff;position:absolute;right:55px;bottom:35px;cursor:pointer}#floating-eye>img[data-v-3f215f52]{cursor:pointer;height:20px;width:20px}.fall-fade-enter-active[data-v-3f215f52]{transition:all .2s ease}.fall-fade-leave-active[data-v-3f215f52]{transition:all .1s ease-out}.fall-fade-enter[data-v-3f215f52],.fall-fade-leave-to[data-v-3f215f52]{transform:translateY(-10px);opacity:0}", ""])
 }, function(e, t, n)
 {
 	"use strict";
@@ -3824,12 +3827,12 @@ module.exports = function(e)
 }, function(e, t, n)
 {
 	e.exports = {
-		default: n(238),
+		default: n(239),
 		__esModule: !0
 	}
 }, function(e, t, n)
 {
-	n(239);
+	n(240);
 	var r = n(12)
 		.Object;
 	e.exports = function(e, t, n)
@@ -3841,7 +3844,7 @@ module.exports = function(e)
 	var r = n(18);
 	r(r.S + r.F * !n(24), "Object",
 	{
-		defineProperty: n(20)
+		defineProperty: n(19)
 			.f
 	})
 }, function(e, t, n)
@@ -3947,12 +3950,12 @@ module.exports = function(e)
 }, function(e, t, n)
 {
 	e.exports = {
-		default: n(261),
+		default: n(262),
 		__esModule: !0
 	}
 }, function(e, t, n)
 {
-	n(38), n(262), e.exports = n(12)
+	n(38), n(263), e.exports = n(12)
 		.Array.from
 }, function(e, t, n)
 {
@@ -3963,7 +3966,7 @@ module.exports = function(e)
 		o = n(119),
 		s = n(120),
 		c = n(91),
-		d = n(263),
+		d = n(264),
 		u = n(101);
 	a(a.S + a.F * !n(125)((function(e)
 	{
@@ -3990,7 +3993,7 @@ module.exports = function(e)
 }, function(e, t, n)
 {
 	"use strict";
-	var r = n(20),
+	var r = n(19),
 		a = n(37);
 	e.exports = function(e, t, n)
 	{
@@ -4054,13 +4057,13 @@ module.exports = function(e)
 		return i[e]
 	}
 	var i = {
-		"./app.js": 273,
+		"./app.js": 274,
 		"./index.js": 105
 	};
 	r.keys = function()
 	{
 		return Object.keys(i)
-	}, r.resolve = a, e.exports = r, r.id = 272
+	}, r.resolve = a, e.exports = r, r.id = 273
 }, function(e, t, n)
 {
 	"use strict";
@@ -9442,12 +9445,12 @@ module.exports = function(e)
 			{
 				path: "/home",
 				name: "landing-page",
-				component: n(282)
+				component: n(283)
 					.default,
 				children: [
 				{
 					path: "general",
-					component: n(283)
+					component: n(284)
 						.default,
 					meta:
 					{
@@ -9456,7 +9459,7 @@ module.exports = function(e)
 				},
 				{
 					path: "proxy",
-					component: n(285)
+					component: n(286)
 						.default,
 					meta:
 					{
@@ -9465,17 +9468,17 @@ module.exports = function(e)
 				},
 				{
 					path: "log",
-					component: n(287)
+					component: n(288)
 						.default
 				},
 				{
 					path: "server",
-					component: n(284)
+					component: n(285)
 						.default
 				},
 				{
 					path: "connection",
-					component: n(288)
+					component: n(289)
 						.default,
 					meta:
 					{
@@ -9484,7 +9487,7 @@ module.exports = function(e)
 				},
 				{
 					path: "about",
-					component: n(286)
+					component: n(287)
 						.default,
 					meta:
 					{
@@ -9530,7 +9533,7 @@ module.exports = function(e)
 		Xs = "‍",
 		Zs = n(0),
 		Qs = n.n(Zs),
-		ec = n(9),
+		ec = n(10),
 		tc = n.n(ec),
 		nc = n(2),
 		rc = n.n(nc),
@@ -9633,7 +9636,7 @@ module.exports = function(e)
 				return setTimeout(t, e)
 			}))
 		},
-		uc = (n(274), Object(Es.a)(
+		uc = (n(275), Object(Es.a)(
 		{
 			name: "InputView",
 			props: [],
@@ -9800,7 +9803,7 @@ module.exports = function(e)
 				document.body.appendChild(n), e.prototype.$input = t.show
 			}
 		},
-		pc = (n(276), Object(Es.a)(
+		pc = (n(277), Object(Es.a)(
 		{
 			name: "PreviewView",
 			props: [],
@@ -9943,7 +9946,7 @@ module.exports = function(e)
 				}
 			}
 		},
-		bc = (n(278), Object(Es.a)(xc, (function()
+		bc = (n(279), Object(Es.a)(xc, (function()
 		{
 			var e = this,
 				t = e.$createElement,
@@ -10010,7 +10013,7 @@ module.exports = function(e)
 				document.body.appendChild(a), e.prototype.$alert = r.show
 			}
 		};
-	process.env.IS_WEB || bs.use(n(280)), bs.use(yr), bs.use(wr), bs.use(_r), bs.use(kr), bs.use(fc), bs.use(vc), bs.use(wc,
+	process.env.IS_WEB || bs.use(n(281)), bs.use(yr), bs.use(wr), bs.use(_r), bs.use(kr), bs.use(fc), bs.use(vc), bs.use(wc,
 	{
 		store: zs
 	}), bs.http = bs.prototype.$http = ws.a, bs.config.productionTip = !1, bs.prototype.$yml = ks.a, bs.prototype.$cpss = Ss.a, bs.prototype.$fs = Os.a, bs.prototype.$path = $s.a, bs.prototype.$db = Gs;
@@ -10031,17 +10034,17 @@ module.exports = function(e)
 	"use strict";
 	var r = Math.floor;
 	n.r(t);
-	var a = n(23),
+	var a = n(22),
 		i = n.n(a),
 		o = n(127),
 		s = n.n(o),
-		c = n(22),
+		c = n(21),
 		d = n.n(c),
-		u = n(25),
+		u = n(23),
 		l = n.n(u),
-		f = n(19),
+		f = n(25),
 		p = n.n(f),
-		h = n(9),
+		h = n(10),
 		v = n.n(h),
 		m = n(0),
 		g = n.n(m),
@@ -10307,14 +10310,16 @@ module.exports = function(e)
 		}), [], !1, null, "79f743c2", null));
 	D.options.__file = "MainMenu.vue";
 	var I = D.exports,
-		L = {
+		L = "isPinEnabled",
+		N = {
 			props: [],
 			data: function()
 			{
 				return {
 					app: this.$electron.remote.app,
 					win: this.$electron.remote.getCurrentWindow(),
-					isWinMax: !1
+					isWinMax: !1,
+					isPinned: !1
 				}
 			},
 			methods:
@@ -10330,6 +10335,11 @@ module.exports = function(e)
 				maxApp: function()
 				{
 					this.isWinMax ? this.win.unmaximize() : this.win.maximize()
+				},
+				pinApp: function()
+				{
+					this.isPinned = !this.isPinned, this.$electron.remote.getCurrentWindow()
+						.setAlwaysOnTop(this.isPinned), window.localStorage.setItem(L, this.isPinned)
 				}
 			},
 			computed: w()(
@@ -10349,10 +10359,10 @@ module.exports = function(e)
 				})), this.win.on("unmaximize", (function()
 				{
 					e.isWinMax = !1
-				}))
+				})), this.isPinned = "true" === window.localStorage.getItem(L)
 			}
 		},
-		N = (n(194), Object(P.a)(L, (function()
+		M = (n(194), Object(P.a)(N, (function()
 		{
 			var e = this,
 				t = e.$createElement,
@@ -10364,6 +10374,20 @@ module.exports = function(e)
 			{
 				staticClass: "empty"
 			}), e._v(" "), n("div",
+			{
+				class: ["close-" + e.theme],
+				on:
+				{
+					click: e.pinApp
+				}
+			}, [n("img",
+			{
+				attrs:
+				{
+					src: "static/imgs/pin-icon" + (e.isPinned ? "-enable" : "dark" === e.theme ? "" : "-dark") + ".png",
+					alt: ""
+				}
+			})]), e._v(" "), n("div",
 			{
 				class: ["close-" + e.theme],
 				on:
@@ -10406,40 +10430,41 @@ module.exports = function(e)
 					alt: ""
 				}
 			})])])
-		}), [], !1, null, "00bc43e6", null));
-	N.options.__file = "StatusBar.vue";
-	var M = N.exports,
-		R = n(17),
-		F = n.n(R),
-		U = n(10),
-		z = n(87),
-		H = n(4),
-		B = n.n(H),
-		V = n(1),
-		G = n.n(V),
-		W = n(16),
-		q = n.n(W),
-		K = n(13),
-		J = n.n(K),
-		Y = (n(196), n(128)),
-		X = n(88),
-		Z = n.n(X),
-		Q = n(197),
-		ee = n(126),
-		te = "isProfileMixin";
-	U.transports.console.format = function(e)
+		}), [], !1, null, "57afb86e", null));
+	M.options.__file = "StatusBar.vue";
+	var R = M.exports,
+		F = n(17),
+		U = n.n(F),
+		z = n(9),
+		H = n(87),
+		B = n(4),
+		V = n.n(B),
+		G = n(1),
+		W = n.n(G),
+		q = n(16),
+		K = n.n(q),
+		J = n(13),
+		Y = n.n(J),
+		X = (n(196), n(128)),
+		Z = n(88),
+		Q = n.n(Z),
+		ee = n(197),
+		te = n(198),
+		ne = n(126),
+		re = "isProfileMixin";
+	z.transports.console.format = function(e)
 	{
 		return e.data
-	}, U.transports.file.format = function(e)
+	}, z.transports.file.format = function(e)
 	{
 		return 'time="' + e.date + '" level=' + e.level + ' msg="' + e.data + '"'
 	};
-	var ne = {
+	var ae = {
 			name: "landing-page",
 			components:
 			{
 				MainMenu: I,
-				StatusBar: M
+				StatusBar: R
 			},
 			data: function()
 			{
@@ -10578,7 +10603,7 @@ module.exports = function(e)
 					var e = this;
 					return b()(g.a.mark((function t()
 					{
-						var n, r, a, i, o, s, c, d, u, l, f, h, m, x, y, _, k, C, S, P, $, T, O, A, j, E, D, I, L;
+						var n, r, a, i, o, s, c, d, u, l, f, p, h, m, x, y, _, k, C, S, P, $, T, O, A, j, E, D, I;
 						return g.a.wrap((function(t)
 						{
 							for(;;) switch (t.prev = t.next)
@@ -10593,7 +10618,7 @@ module.exports = function(e)
 									}
 									return t.next = 4, e.refreshClashStatus();
 								case 4:
-									return U.info("clash is not ready, retry " + n + " times"), t.next = 7, e.$wait(1e3);
+									return z.info("clash is not ready, retry " + n + " times"), t.next = 7, e.$wait(1e3);
 								case 7:
 									if(!(10 <= (n += 1)))
 									{
@@ -10610,23 +10635,23 @@ module.exports = function(e)
 										t.next = 54;
 										break
 									}
-									return U.info("restore at index: " + s), d = e.profiles.files[s], i = G.a.join(e.profilesPath, d.time), t.prev = 21, u = J.a.parse(B.a.readFileSync(i, "utf8")), l = e.confData["cfw-profile-mixin"], f = void 0 === l ?
-										{} : l, h = "true" === window.localStorage.getItem(te), m = h ? w()(
+									return z.info("restore at index: " + s), d = e.profiles.files[s], i = W.a.join(e.profilesPath, d.time), t.prev = 21, u = Y.a.parse(V.a.readFileSync(i, "utf8")), l = e.confData["cfw-profile-mixin"], f = void 0 === l ?
+										{} : l, p = "true" === window.localStorage.getItem(re), h = p ? w()(
 										{}, u, f) : w()(
-										{}, u), y = (x = m)
-										.dns, _ = void 0 === y ?
-										{} : y, k = x.experimental, C = void 0 === k ?
-										{} : k, S = _.enable, P = void 0 !== S && S, $ = _.listen, T = ["", "0.0.0.0"], _ && P && $ && (O = $.split(":")[0].trim(), A = $.split(":")[1].trim(), T.includes(O) && "53" === A && (c = !0, void 0 === C["interface-name"] && "" != e.defaultInterfaceName && (m = w()(
-										{}, m,
+										{}, u), x = (m = h)
+										.dns, y = void 0 === x ?
+										{} : x, _ = m.experimental, k = void 0 === _ ?
+										{} : _, C = y.enable, S = void 0 !== C && C, P = y.listen, $ = ["", "0.0.0.0"], y && S && P && (T = P.split(":")[0].trim(), O = P.split(":")[1].trim(), $.includes(T) && "53" === O && (void 0 === k["interface-name"] && "" != e.defaultInterfaceName ? (h = w()(
+										{}, h,
 										{
 											experimental: w()(
-											{}, C,
+											{}, k,
 											{
 												"interface-name": e.defaultInterfaceName
 											})
-										})))), t.next = 32, e.clashAxiosClient.put("/configs",
+										}), c = !0) : c = !1)), t.next = 32, e.clashAxiosClient.put("/configs",
 										{
-											payload: J.a.stringify(m)
+											payload: Y.a.stringify(h)
 										},
 										{
 											validateStatus: function()
@@ -10636,17 +10661,17 @@ module.exports = function(e)
 											timeout: 0
 										});
 								case 32:
-									j = t.sent, E = j.status, D = j.data, r = 204 === E, I = D.message, a = I || "Switching profile failed with status: " + E, t.next = 44;
+									A = t.sent, j = A.status, E = A.data, r = 204 === j, D = E.message, a = D || "Switching profile failed with status: " + j, t.next = 44;
 									break;
 								case 40:
-									t.prev = 40, t.t0 = t.catch(21), a = t.t0.message, U.warn("fail to restore last profile with error: " + t.t0);
+									t.prev = 40, t.t0 = t.catch(21), a = t.t0.message, z.warn("fail to restore last profile with error: " + t.t0);
 								case 44:
-									if(!(L = d.selected))
+									if(!(I = d.selected))
 									{
 										t.next = 54;
 										break
 									}
-									return U.info("restore proxy settings"), t.prev = 47, t.next = 50, v.a.all(L.map(function()
+									return z.info("restore proxy settings"), t.prev = 47, t.next = 50, v.a.all(I.map(function()
 									{
 										var t = b()(g.a.mark((function t(n)
 										{
@@ -10678,40 +10703,12 @@ module.exports = function(e)
 								case 52:
 									t.prev = 52, t.t1 = t.catch(47);
 								case 54:
-									return c ? e.spawnTun2socks() : e.killTun2socks(), setTimeout(b()(g.a.mark((function t()
-									{
-										var n, r, a, i, o, s, c, d, u, l, f;
-										return g.a.wrap((function(t)
-										{
-											for(;;) switch (t.prev = t.next)
-											{
-												case 0:
-													return t.prev = 0, n = e.clashAxiosClient, t.next = 4, v.a.all([n.get("/rules"), n.put("/rules")]);
-												case 4:
-													r = t.sent, a = p()(r, 2), i = a[0], o = a[1], s = i.data, c = s.rules, d = void 0 === c ? [] : c, u = o.data, l = (void 0 === u ?
-														{} : u)
-														.rules, 0 < (f = void 0 === l ? [] : l)
-														.length && e.showNotification("Rulesets Updated", f.length + "/" + d.filter((function(e)
-															{
-																return e.hasOwnProperty("last-update")
-															}))
-															.length + " updated successfully!"), t.next = 17;
-													break;
-												case 15:
-													t.prev = 15, t.t0 = t.catch(0);
-												case 17:
-												case "end":
-													return t.stop()
-											}
-										}), t, e, [
-											[0, 15]
-										])
-									}))), 3e3), t.abrupt("return",
+									return c ? e.spawnTun2socks() : e.killTun2socks(), t.abrupt("return",
 									{
 										success: r,
 										message: a
 									});
-								case 57:
+								case 56:
 								case "end":
 									return t.stop()
 							}
@@ -10746,10 +10743,10 @@ module.exports = function(e)
 									{
 										setTimeout((function()
 										{
-											var n = G.a.join(t.clashPath, "config.yaml"),
-												r = B.a.readFileSync(n, "utf8"),
-												a = J.a.parseDocument(r);
-											a.set("mode", e), B.a.writeFileSync(n, a.toString())
+											var n = W.a.join(t.clashPath, "config.yaml"),
+												r = V.a.readFileSync(n, "utf8"),
+												a = Y.a.parseDocument(r);
+											a.set("mode", e), V.a.writeFileSync(n, a.toString())
 										}), 100)
 									}
 									catch (e)
@@ -10826,14 +10823,14 @@ module.exports = function(e)
 				},
 				showLogsFolder: function()
 				{
-					this.clashPath && this.$electron.shell.openItem(G.a.join(this.clashPath, "logs"))
+					this.clashPath && this.$electron.shell.openItem(W.a.join(this.clashPath, "logs"))
 				},
 				refreshRestfulPort: function()
 				{
 					if(this.confData)
 					{
 						var e = this.confData["external-controller"].split(":")[1].trim();
-						this.clashAxiosClient = q.a.create(
+						this.clashAxiosClient = K.a.create(
 						{
 							baseURL: "http://127.0.0.1:" + e + "/",
 							timeout: 5e3,
@@ -10859,7 +10856,7 @@ module.exports = function(e)
 					var n = t.split(":")[1].trim();
 					/^\//.test(e) || (e = "/" + e);
 					var r = "ws://127.0.0.1:" + n + e + "?token=" + this.confData.secret;
-					return new Q(r)
+					return new te(r)
 				},
 				open: function(e)
 				{
@@ -10876,7 +10873,7 @@ module.exports = function(e)
 				{
 					try
 					{
-						F.a.execSync("taskkill /IM clash-win64.exe /F")
+						U.a.execSync("taskkill /IM clash-win64.exe /F")
 					}
 					catch (e)
 					{}
@@ -10905,7 +10902,7 @@ module.exports = function(e)
 				},
 				md5: function(e)
 				{
-					return Z.a.createHash("md5")
+					return Q.a.createHash("md5")
 						.update(e)
 						.digest("hex")
 				},
@@ -10916,7 +10913,7 @@ module.exports = function(e)
 					{
 						title: e,
 						body: t,
-						icon: G.a.join(G.a.dirname(this.$electron.remote.app.getPath("exe")), "./resources/static/imgs/logo_64.png"),
+						icon: W.a.join(W.a.dirname(this.$electron.remote.app.getPath("exe")), "./resources/static/imgs/logo_64.png"),
 						silent: n
 					})
 				},
@@ -10931,30 +10928,30 @@ module.exports = function(e)
 							for(;;) switch (t.prev = t.next)
 							{
 								case 0:
-									return U.info("restarting clash core..."), e.loadConfData(), e.confData ? (n = e.confData["cfw-profiles-path"], r = void 0 === n ? G.a.join(e.clashPath, "profiles") : n, e.setProfilesPath(
+									return z.info("restarting clash core..."), e.loadConfData(), e.confData ? (n = e.confData["cfw-profiles-path"], r = void 0 === n ? W.a.join(e.clashPath, "profiles") : n, e.setProfilesPath(
 									{
 										path: r
 									})) : e.setProfilesPath(
 									{
-										path: G.a.join(e.clashPath, "profiles")
+										path: W.a.join(e.clashPath, "profiles")
 									}), e.initConfigFolder(), e.loadConfData(), a = e.confData["cfw-font-family"], document.body.style.fontFamily = a || '"Microsoft Yahei", "PingFang SC", 微软雅黑', (i = e.confData["cfw-profiles-path"]) && e.setProfilesPath(
 									{
 										path: i
-									}), e.loadProfiles(), o = G.a.join(e.clashPath, "logs", A()()
-										.format("YYYY-MM-DD-HHmmss") + ".log"), B.a.readdir(G.a.join(e.clashPath, "logs"), (function(t, n)
+									}), e.loadProfiles(), o = W.a.join(e.clashPath, "logs", A()()
+										.format("YYYY-MM-DD-HHmmss") + ".log"), V.a.readdir(W.a.join(e.clashPath, "logs"), (function(t, n)
 									{
 										!t && 0 < n.length && n.forEach((function(t)
 										{
 											/^(.*?)\.log$/.test(t) && (A()(RegExp.$1, "YYYY-MM-DD-HHmmss")
 												.isBefore(A()()
-													.subtract(7, "days")) && B.a.unlink(G.a.join(e.clashPath, "logs", t), (function() {})))
+													.subtract(7, "days")) && V.a.unlink(W.a.join(e.clashPath, "logs", t), (function() {})))
 										}))
 									})), t.next = 14, e.$db.findOne(
 									{
 										_id: "user_main"
 									});
 								case 14:
-									return s = t.sent, s.systemProxy && e.confData && (e.$setSystemProxy(!0, e.confData.port, e.confData), e.loadConfData()), c = [], e.portableMode && (c = ["-d", "."]), d = e.devMode ? "static/files" : G.a.join(G.a.dirname(e.$electron.remote.app.getPath("exe")), "./resources/static/files"), u = F.a.spawn("clash-win64.exe", c,
+									return s = t.sent, s.systemProxy && e.confData && (e.$setSystemProxy(!0, e.confData.port, e.confData), e.loadConfData()), c = [], e.portableMode && (c = ["-d", "."]), d = e.devMode ? "static/files" : W.a.join(W.a.dirname(e.$electron.remote.app.getPath("exe")), "./resources/static/files"), u = U.a.spawn("clash-win64.exe", c,
 									{
 										cwd: d
 									}), ["level=info", "level=warning"].map((function(e)
@@ -10974,9 +10971,9 @@ module.exports = function(e)
 															t.next = 4;
 															break
 														}
-														return U.info("clash core startup success!"), t.next = 4, e.refreshClashStatus();
+														return z.info("clash core startup success!"), t.next = 4, e.refreshClashStatus();
 													case 4:
-														/level=fatal/.test(n.toString()) && (U.error("clash core startup failed!!!"), e.clashStatus = 1);
+														/level=fatal/.test(n.toString()) && (z.error("clash core startup failed!!!"), e.clashStatus = 1);
 													case 5:
 													case "end":
 														return t.stop()
@@ -10990,7 +10987,7 @@ module.exports = function(e)
 									}()), u.on("exit", (function()
 									{
 										e.clashStatus = 1
-									})), "silent" !== e.confData["log-level"] && (l = B.a.createWriteStream(o,
+									})), "silent" !== e.confData["log-level"] && (l = V.a.createWriteStream(o,
 									{
 										flags: "a"
 									}), u.stdout.pipe(l), u.stderr.pipe(l), e.setLogFileName(
@@ -11011,7 +11008,7 @@ module.exports = function(e)
 					var t = 1 < arguments.length && void 0 !== arguments[1] ? arguments[1] : null;
 					return new v.a((function(n)
 					{
-						Object(Y.exec)(e,
+						Object(X.exec)(e,
 						{
 							name: "ClashR for Windows"
 						}, (function(e)
@@ -11024,8 +11021,8 @@ module.exports = function(e)
 				{
 					var e = this;
 					this.clashStatus = 3;
-					var t = this.devMode ? "static/files/tun2socks" : G.a.join(G.a.dirname(this.$electron.remote.app.getPath("exe")), "./resources/static/files/tun2socks"),
-						n = G.a.join(t, "add_tap_device.bat");
+					var t = this.devMode ? "static/files/tun2socks" : W.a.join(W.a.dirname(this.$electron.remote.app.getPath("exe")), "./resources/static/files/tun2socks"),
+						n = W.a.join(t, "add_tap_device.bat");
 					return this.sudoRunBAT('"' + n + '" "' + t + '"', b()(g.a.mark((function t()
 					{
 						return g.a.wrap((function(t)
@@ -11052,18 +11049,27 @@ module.exports = function(e)
 							for(;;) switch (t.prev = t.next)
 							{
 								case 0:
+									return z.info("Spawn go-tun2socks"), t.next = 3, ee();
+								case 3:
+									if(!t.sent)
+									{
+										t.next = 6;
+										break
+									}
+									return z.info("Run as Administrator, stop spawing go-tun2socks"), t.abrupt("return");
+								case 6:
 									if(e.tun2socks && e.killTun2socks(), n = e.confData["socks-port"])
 									{
-										t.next = 4;
+										t.next = 10;
 										break
 									}
 									return t.abrupt("return");
-								case 4:
-									r = ["-tunName", "cfw-tap", "-tunDns", "10.0.0.1", "-tunAddr", "10.0.0.1", "-tunMask", "255.255.255.0", "-tunGw", "10.0.0.0", "-proxyServer", "127.0.0.1:" + n, "-loglevel", "none"], e.tun2socks = F.a.spawn("go-tun2socks.exe", r,
+								case 10:
+									r = ["-tunName", "cfw-tap", "-tunDns", "10.0.0.1", "-tunAddr", "10.0.0.1", "-tunMask", "255.255.255.0", "-tunGw", "10.0.0.0", "-proxyServer", "127.0.0.1:" + n, "-loglevel", "none"], e.tun2socks = U.a.spawn("go-tun2socks.exe", r,
 									{
-										cwd: e.devMode ? "static/files/tun2socks" : G.a.join(G.a.dirname(e.$electron.remote.app.getPath("exe")), "./resources/static/files/tun2socks")
+										cwd: e.devMode ? "static/files/tun2socks" : W.a.join(W.a.dirname(e.$electron.remote.app.getPath("exe")), "./resources/static/files/tun2socks")
 									}), e.tun2socks.stdout.on("data", (function() {}));
-								case 7:
+								case 13:
 								case "end":
 									return t.stop()
 							}
@@ -11074,7 +11080,7 @@ module.exports = function(e)
 				{
 					try
 					{
-						F.a.execSync("taskkill /IM go-tun2socks.exe /F")
+						U.a.execSync("taskkill /IM go-tun2socks.exe /F")
 					}
 					catch (e)
 					{}
@@ -11091,7 +11097,7 @@ module.exports = function(e)
 							for(;;) switch (t.prev = t.next)
 							{
 								case 0:
-									return n = e.devMode ? "static/files/tun2socks" : G.a.join(G.a.dirname(e.$electron.remote.app.getPath("exe")), "./resources/static/files/tun2socks"), r = G.a.join(n, "set_routes.bat"), t.abrupt("return", e.sudoRunBAT('"' + r + '"'));
+									return n = e.devMode ? "static/files/tun2socks" : W.a.join(W.a.dirname(e.$electron.remote.app.getPath("exe")), "./resources/static/files/tun2socks"), r = W.a.join(n, "set_routes.bat"), t.abrupt("return", e.sudoRunBAT('"' + r + '"'));
 								case 3:
 								case "end":
 									return t.stop()
@@ -11135,7 +11141,7 @@ module.exports = function(e)
 							for(;;) switch (t.prev = t.next)
 							{
 								case 0:
-									return n = e.$electron.remote.app.getVersion(), U.info("check for app update, current: " + n), t.next = 4, q.a.get("https://api.github.com/repos/Fndroid/clash_for_windows_pkg/releases/latest");
+									return n = e.$electron.remote.app.getVersion(), z.info("check for app update, current: " + n), t.next = 4, K.a.get("https://api.github.com/repos/Fndroid/clash_for_windows_pkg/releases/latest");
 								case 4:
 									200 === (r = t.sent)
 										.status && (a = r.data.tag_name, i = function(e)
@@ -11177,12 +11183,12 @@ module.exports = function(e)
 					{
 						if(0 === t)
 						{
-							var a = G.a.join(r.$electron.remote.app.getPath("temp"), e.name),
+							var a = W.a.join(r.$electron.remote.app.getPath("temp"), e.name),
 								i = C.a.stream(e.browser_download_url);
 							i.on("downloadProgress", (function(e)
 								{
 									r.pkgDownloadProgress = e.percent
-								})), i.pipe(B.a.createWriteStream(a))
+								})), i.pipe(V.a.createWriteStream(a))
 								.on("close", (function()
 								{
 									r.$electron.shell.openItem(a)
@@ -11193,13 +11199,13 @@ module.exports = function(e)
 				},
 				loadConfData: function()
 				{
-					U.info("load data from general config.yaml");
-					var e = G.a.join(this.clashPath, "config.yaml");
+					z.info("load data from general config.yaml");
+					var e = W.a.join(this.clashPath, "config.yaml");
 					try
 					{
-						var t = B.a.readFileSync(e, "utf8")
+						var t = V.a.readFileSync(e, "utf8")
 							.toString(),
-							n = J.a.parse(t);
+							n = Y.a.parse(t);
 						this.confDataString = t, this.setConfData(
 						{
 							data: n
@@ -11207,32 +11213,32 @@ module.exports = function(e)
 					}
 					catch (t)
 					{
-						U.warn("fail to load general config.yaml with error: " + t)
+						z.warn("fail to load general config.yaml with error: " + t)
 					}
 				},
 				mkdirPathSync: function(e)
 				{
-					return e !== G.a.dirname(e) && (!!B.a.existsSync(e) || (this.mkdirPathSync(G.a.dirname(e)) ? (B.a.mkdirSync(e), !0) : void 0))
+					return e !== W.a.dirname(e) && (!!V.a.existsSync(e) || (this.mkdirPathSync(W.a.dirname(e)) ? (V.a.mkdirSync(e), !0) : void 0))
 				},
 				initConfigFolder: function()
 				{
 					this.mkdirPathSync(this.clashPath);
-					var e = this.devMode ? "static/files/default/config.yaml" : G.a.join(G.a.dirname(this.$electron.remote.app.getPath("exe")), "./resources/static/files/default/config.yaml"),
-						t = G.a.join(this.clashPath, "config.yaml"),
-						n = G.a.join(this.clashPath, "config.yml");
-					B.a.existsSync(n) && (B.a.unlinkSync(t), B.a.renameSync(n, t)), B.a.existsSync(t) && "" !== B.a.readFileSync(t,
+					var e = this.devMode ? "static/files/default/config.yaml" : W.a.join(W.a.dirname(this.$electron.remote.app.getPath("exe")), "./resources/static/files/default/config.yaml"),
+						t = W.a.join(this.clashPath, "config.yaml"),
+						n = W.a.join(this.clashPath, "config.yml");
+					V.a.existsSync(n) && (V.a.unlinkSync(t), V.a.renameSync(n, t)), V.a.existsSync(t) && "" !== V.a.readFileSync(t,
 					{
 						encoding: "utf8"
-					}) || (U.info("first luanch, creating config.yaml..."), B.a.copyFileSync(e, t));
-					var r = this.devMode ? "static/files/default/Country.mmdb" : G.a.join(G.a.dirname(this.$electron.remote.app.getPath("exe")), "./resources/static/files/default/Country.mmdb"),
-						a = G.a.join(this.clashPath, "Country.mmdb");
-					B.a.existsSync(a) || B.a.copyFileSync(r, a);
-					var i = G.a.join(this.clashPath, "logs");
-					B.a.existsSync(i) || B.a.mkdirSync(i);
+					}) || (z.info("first luanch, creating config.yaml..."), V.a.copyFileSync(e, t));
+					var r = this.devMode ? "static/files/default/Country.mmdb" : W.a.join(W.a.dirname(this.$electron.remote.app.getPath("exe")), "./resources/static/files/default/Country.mmdb"),
+						a = W.a.join(this.clashPath, "Country.mmdb");
+					V.a.existsSync(a) || V.a.copyFileSync(r, a);
+					var i = W.a.join(this.clashPath, "logs");
+					V.a.existsSync(i) || V.a.mkdirSync(i);
 					var o = this.profilesPath;
-					B.a.existsSync(o) || B.a.mkdirSync(o);
-					var s = G.a.join(this.profilesPath, "list.yml");
-					B.a.existsSync(s) || B.a.writeFileSync(s, "files: []\nindex: -1",
+					V.a.existsSync(o) || V.a.mkdirSync(o);
+					var s = W.a.join(this.profilesPath, "list.yml");
+					V.a.existsSync(s) || V.a.writeFileSync(s, "files: []\nindex: -1",
 					{
 						flag: "ax"
 					})
@@ -11245,7 +11251,7 @@ module.exports = function(e)
 						r = e.options,
 						a = void 0 === r ?
 						{} : r;
-					return F.a.spawn(e.command, n, a)
+					return U.a.spawn(e.command, n, a)
 				},
 				spawnUserDefindExes: function()
 				{
@@ -11267,10 +11273,10 @@ module.exports = function(e)
 							for(;;) switch (e.prev = e.next)
 							{
 								case 0:
-									return e.next = 2, q.a.get("https://raw.githubusercontent.com/Fndroid/ads/master/ads_v2.json?t=" + (new Date)
+									return e.next = 2, K.a.get("https://raw.githubusercontent.com/Fndroid/ads/master/ads_v2.json?t=" + (new Date)
 										.getTime());
 								case 2:
-									n = e.sent, r = n.status, a = n.data, 200 === r && ((i = a.feedback) && (o = i, window.localStorage.adImagesStr = l()(o)));
+									n = e.sent, r = n.status, a = n.data, 200 === r && ((i = a.feedback) && (o = i, window.localStorage.adImagesStr = p()(o)));
 								case 5:
 								case "end":
 									return e.stop()
@@ -11283,7 +11289,7 @@ module.exports = function(e)
 					var e = this;
 					return b()(g.a.mark((function t()
 					{
-						var n, r, a, i, o, c, u, l, f, h, m, x, b, y, _, k, C, S, P, $;
+						var n, r, a, i, o, c, u, f, p, h, m, x, b, y, _, k, C, S, P, $;
 						return g.a.wrap((function(t)
 						{
 							for(;;) switch (t.prev = t.next)
@@ -11310,7 +11316,7 @@ module.exports = function(e)
 										return !1
 									})), t.next = 6, v.a.all(c.map((function(e)
 									{
-										return q.a.get(e.url,
+										return K.a.get(e.url,
 										{
 											headers:
 											{
@@ -11324,7 +11330,7 @@ module.exports = function(e)
 										})
 									})));
 								case 6:
-									u = t.sent, l = g.a.mark((function t(n, r)
+									u = t.sent, f = g.a.mark((function t(n, r)
 									{
 										var i, s, d;
 										return g.a.wrap((function(t)
@@ -11337,13 +11343,13 @@ module.exports = function(e)
 														t.next = 4;
 														break
 													}
-													return e.showNotification("Profile update failed", c[n].url), U.warn("fail to update profile with url: " + c[n].url), t.abrupt("return",
+													return e.showNotification("Profile update failed", c[n].url), z.warn("fail to update profile with url: " + c[n].url), t.abrupt("return",
 													{
 														v: void 0
 													});
 												case 4:
 													if(i = (new Date)
-														.getTime() + ".yml", s = G.a.join(e.profilesPath, r.time), B.a.writeFileSync(s, u[n].data), B.a.renameSync(s, G.a.join(e.profilesPath, i)), d = a.findIndex((function(e)
+														.getTime() + ".yml", s = W.a.join(e.profilesPath, r.time), V.a.writeFileSync(s, u[n].data), V.a.renameSync(s, W.a.join(e.profilesPath, i)), d = a.findIndex((function(e)
 														{
 															return e.url === r.url
 														})), e.changeProfile(
@@ -11365,15 +11371,15 @@ module.exports = function(e)
 													return t.stop()
 											}
 										}), t, e)
-									})), f = !0, h = !1, m = void 0, t.prev = 11, x = d()(c.entries());
+									})), p = !0, h = !1, m = void 0, t.prev = 11, x = d()(c.entries());
 								case 13:
-									if(f = (b = x.next())
+									if(p = (b = x.next())
 										.done)
 									{
 										t.next = 25;
 										break
 									}
-									return y = b.value, _ = p()(y, 2), k = _[0], C = _[1], t.delegateYield(l(k, C), "t0", 19);
+									return y = b.value, _ = l()(y, 2), k = _[0], C = _[1], t.delegateYield(f(k, C), "t0", 19);
 								case 19:
 									if("object" !== (void 0 === (S = t.t0) ? "undefined" : s()(S)))
 									{
@@ -11382,7 +11388,7 @@ module.exports = function(e)
 									}
 									return t.abrupt("return", S.v);
 								case 22:
-									f = !0, t.next = 13;
+									p = !0, t.next = 13;
 									break;
 								case 25:
 									t.next = 31;
@@ -11390,7 +11396,7 @@ module.exports = function(e)
 								case 27:
 									t.prev = 27, t.t1 = t.catch(11), h = !0, m = t.t1;
 								case 31:
-									t.prev = 31, t.prev = 32, !f && x.return && x.return();
+									t.prev = 31, t.prev = 32, !p && x.return && x.return();
 								case 34:
 									if(t.prev = 34, !h)
 									{
@@ -11407,11 +11413,11 @@ module.exports = function(e)
 										.map((function(e)
 										{
 											return e.time
-										})), B.a.readdir(G.a.join(e.profilesPath), (function(t, n)
+										})), V.a.readdir(W.a.join(e.profilesPath), (function(t, n)
 										{
 											!t && 0 < n.length && n.forEach((function(t)
 											{
-												/^\d+\.yml$/.test(t) && !$.includes(t) && B.a.unlinkSync(G.a.join(e.profilesPath, t))
+												/^\d+\.yml$/.test(t) && !$.includes(t) && V.a.unlinkSync(W.a.join(e.profilesPath, t))
 											}))
 										}));
 								case 42:
@@ -11427,7 +11433,7 @@ module.exports = function(e)
 				getDefaultInterface: function()
 				{
 					var e = this,
-						t = i()(Object(z.networkInterfaces)())
+						t = i()(Object(H.networkInterfaces)())
 						.filter((function(e)
 						{
 							return "cfw-tap" !== e
@@ -11436,11 +11442,11 @@ module.exports = function(e)
 					(t.length != n.length || n.some((function(e)
 					{
 						return !t.includes(e)
-					}))) && (U.info("network changed, current interfaces: " + t.join(" | ")), this.networkInterfaces = t, !t.includes(this.defaultInterfaceName) && (U.info("TAP outbound interface is empty or down, try to get another one"), F.a.exec('chcp 65001 >nul 2>&1 && powershell -Command "Get-NetAdapter -Physical | where Status -eq "up"  | Get-NetIPInterface -InterfaceAlias {$_.Name} | Sort-Object -Property InterfaceMetric | Select-Object -Index 0 | select -ExpandProperty InterfaceAlias"', (function(t, n)
+					}))) && (z.info("network changed, current interfaces: " + t.join(" | ")), this.networkInterfaces = t, !t.includes(this.defaultInterfaceName) && (z.info("TAP outbound interface is empty or down, try to get another one"), U.a.exec('chcp 65001 >nul 2>&1 && powershell -Command "Get-NetAdapter -Physical | where Status -eq "up"  | Get-NetIPInterface -InterfaceAlias {$_.Name} | Sort-Object -Property InterfaceMetric | Select-Object -Index 0 | select -ExpandProperty InterfaceAlias"', (function(t, n)
 					{
 						var r = n.toString()
 							.trim();
-						U.info("new outbound interface: " + r), e.defaultInterfaceName = r, e.refreshProfile()
+						z.info("new outbound interface: " + r), e.defaultInterfaceName = r, e.refreshProfile()
 					}))))
 				}
 			}),
@@ -11457,7 +11463,7 @@ module.exports = function(e)
 						{
 							case 0:
 								return e.startTime = (new Date)
-									.getTime(), e.devMode = ee, U.info("app start with mode: " + (ee ? "dev" : "production")), e.$electron.ipcRenderer.send("clash-core-status-change", 0), n = function()
+									.getTime(), e.devMode = ne, z.info("app start with mode: " + (ne ? "dev" : "production")), e.$electron.ipcRenderer.send("clash-core-status-change", 0), n = function()
 									{
 										var t = b()(g.a.mark((function t()
 										{
@@ -11467,7 +11473,7 @@ module.exports = function(e)
 												for(;;) switch (t.prev = t.next)
 												{
 													case 0:
-														return U.info("app exiting, turn off system proxy"), t.next = 3, e.$db.findOne(
+														return z.info("app exiting, turn off system proxy"), t.next = 3, e.$db.findOne(
 														{
 															_id: "user_main"
 														});
@@ -11495,7 +11501,7 @@ module.exports = function(e)
 										}
 									}(), e.$electron.ipcRenderer.on("app-exit", n), e.$electron.ipcRenderer.on("app-resume", (function()
 									{
-										e.tun2socks && (U.info("system resume, restart tun2socks"), e.killTun2socks(), e.spawnTun2socks()), e.refreshProfile()
+										e.tun2socks && (z.info("system resume, restart tun2socks"), e.killTun2socks(), e.spawnTun2socks()), e.refreshProfile()
 											.then((function() {}))
 											.catch((function() {}))
 									})), e.$electron.ipcRenderer.on("system-proxy-changed", (function(t, n)
@@ -11513,9 +11519,9 @@ module.exports = function(e)
 											}
 										},
 										{})
-									})), e.$electron.ipcRenderer.send("mixin-changed", "true" === window.localStorage.getItem(te)), e.$electron.ipcRenderer.on("mixin-changed", (function(t, n)
+									})), e.$electron.ipcRenderer.send("mixin-changed", "true" === window.localStorage.getItem(re)), e.$electron.ipcRenderer.on("mixin-changed", (function(t, n)
 									{
-										window.localStorage.setItem(te, n), e.refreshProfile()
+										window.localStorage.setItem(re, n), e.refreshProfile()
 									})), e.$electron.ipcRenderer.on("mode-changed", (function(t, n)
 									{
 										e.switchMode(n, !1)
@@ -11553,12 +11559,12 @@ module.exports = function(e)
 							case 18:
 								t.prev = 18, t.t0 = t.catch(13);
 							case 20:
-								return r = G.a.dirname(e.$electron.remote.app.getPath("exe")), a = e.$electron.remote.app.getPath("home"), i = G.a.join(a, "/.config/clash"), B.a.existsSync(e.devMode ? "static/files/config.yaml" : G.a.join(r, "resources/static/files/config.yaml")) && (i = e.devMode ? "static/files" : G.a.join(r, "resources/static/files"), e.portableMode = !0), e.userPath = a, e.setClashPath(
+								return r = W.a.dirname(e.$electron.remote.app.getPath("exe")), a = e.$electron.remote.app.getPath("home"), i = W.a.join(a, "/.config/clash"), V.a.existsSync(e.devMode ? "static/files/config.yaml" : W.a.join(r, "resources/static/files/config.yaml")) && (i = e.devMode ? "static/files" : W.a.join(r, "resources/static/files"), e.portableMode = !0), e.userPath = a, e.setClashPath(
 								{
 									path: i
 								}), e.setProfilesPath(
 								{
-									path: G.a.join(e.clashPath, "profiles")
+									path: W.a.join(e.clashPath, "profiles")
 								}), t.next = 29, e.handlerRestartClash();
 							case 29:
 								(o = e.confData.mode) && e.$electron.ipcRenderer.send("mode-changed", o), e.showStartup || (e.showStartup = !0, e.showNotification("Clash is running in the background", "Enjoy your free time!")), e.getDefaultInterface(), setInterval(e.getDefaultInterface, 3e3), e.spawnUserDefindExes(), e.checkForUpdate()
@@ -11582,7 +11588,7 @@ module.exports = function(e)
 				})))()
 			}
 		},
-		re = (n(198), n(200), n(202), Object(P.a)(ne, (function()
+		ie = (n(199), n(201), n(203), Object(P.a)(ae, (function()
 		{
 			var e = this,
 				t = e.$createElement,
@@ -11667,17 +11673,17 @@ module.exports = function(e)
 					click: e.showLogsFolder
 				}
 			}, [e._v(e._s(e.statusHint))])])])], 1)
-		}), [], !1, null, "7bdb35fd", null));
-	re.options.__file = "LandingPage.vue", t.default = re.exports
+		}), [], !1, null, "1b7d895e", null));
+	ie.options.__file = "LandingPage.vue", t.default = ie.exports
 }, function(e, t, n)
 {
 	"use strict";
 	n.r(t);
-	var r = n(23),
+	var r = n(22),
 		a = n.n(r),
-		i = n(19),
+		i = n(23),
 		o = n.n(i),
-		s = n(9),
+		s = n(10),
 		c = n.n(s),
 		d = n(0),
 		u = n.n(d),
@@ -11790,7 +11796,7 @@ module.exports = function(e)
 				this.intervalID && (clearInterval(this.intervalID), this.intervalID = null)
 			}
 		},
-		D = (n(204), n(206), n(5)),
+		D = (n(205), n(207), n(5)),
 		I = Object(D.a)(E, (function()
 		{
 			var e = this,
@@ -11867,7 +11873,7 @@ module.exports = function(e)
 			},
 			mounted: function() {}
 		},
-		M = (n(208), Object(D.a)(N, (function()
+		M = (n(209), Object(D.a)(N, (function()
 		{
 			var e = this,
 				t = e.$createElement,
@@ -11879,6 +11885,27 @@ module.exports = function(e)
 				{
 					click: e.handleClick
 				}
+			}, [n("transition",
+			{
+				attrs:
+				{
+					name: "move-right"
+				}
+			}, [e.on ? e._e() : n("div",
+			{
+				staticClass: "text"
+			}, [n("div",
+			{
+				staticClass: "base tint-right"
+			}), e._v(" "), n("div",
+			{
+				staticClass: "base text-font text-off"
+			})])]), e._v(" "), n("transition",
+			{
+				attrs:
+				{
+					name: "move-left"
+				}
 			}, [e.on ? n("div",
 			{
 				staticClass: "text"
@@ -11888,17 +11915,8 @@ module.exports = function(e)
 			}), e._v(" "), n("div",
 			{
 				staticClass: "base tint-left"
-			})]) : n("div",
-			{
-				staticClass: "text"
-			}, [n("div",
-			{
-				staticClass: "base tint-right"
-			}), e._v(" "), n("div",
-			{
-				staticClass: "base text-font text-off"
-			})])])
-		}), [], !1, null, "56f079ee", null));
+			})]) : e._e()])], 1)
+		}), [], !1, null, "07732e26", null));
 	M.options.__file = "SwitchView.vue";
 	var R = M.exports,
 		F = {
@@ -11929,7 +11947,7 @@ module.exports = function(e)
 				}
 			}
 		},
-		U = (n(210), Object(D.a)(F, (function()
+		U = (n(211), Object(D.a)(F, (function()
 		{
 			var e = this,
 				t = e.$createElement,
@@ -11959,7 +11977,7 @@ module.exports = function(e)
 		}), [], !1, null, "9998b8fa", null));
 	U.options.__file = "SelectView.vue";
 	var z = U.exports,
-		H = (n(212), Object(D.a)(
+		H = (n(213), Object(D.a)(
 		{
 			props: [],
 			data: function()
@@ -12226,7 +12244,7 @@ module.exports = function(e)
 				openGithubRelease: function()
 				{
 					var e = this.$parent.pkgDownloadURL;
-					e && this.$electron.shell.openExternal(e)
+					e ? this.$electron.shell.openExternal(e) : this.$parent.checkForUpdate()
 				},
 				itemClick: function(e, t)
 				{
@@ -12520,6 +12538,10 @@ module.exports = function(e)
 					})))()
 				}
 			}),
+			mounted: function()
+			{
+				this.setupSwitches()
+			},
 			beforeRouteEnter: function(e, t, n)
 			{
 				var r = this;
@@ -12568,7 +12590,7 @@ module.exports = function(e)
 				this.removeWatcher(), this.intervalID && (clearInterval(this.intervalID), this.intervalID = null), this.timeoutID && (clearTimeout(this.timeoutID), this.timeoutID = null), n()
 			}
 		},
-		W = (n(214), n(216), Object(D.a)(G, (function()
+		W = (n(215), n(217), Object(D.a)(G, (function()
 		{
 			var e = this,
 				t = e.$createElement,
@@ -12799,7 +12821,7 @@ module.exports = function(e)
 			{
 				staticClass: "empty-div"
 			})], 1)
-		}), [], !1, null, "44cf6046", null));
+		}), [], !1, null, "2d1c3abe", null));
 	W.options.__file = "GeneralView.vue", t.default = W.exports
 }, function(e, t, n)
 {
@@ -12808,7 +12830,7 @@ module.exports = function(e)
 	n.r(t);
 	var a = n(132),
 		i = n.n(a),
-		o = n(22),
+		o = n(21),
 		s = n.n(o),
 		c = n(0),
 		d = n.n(c),
@@ -12933,7 +12955,7 @@ module.exports = function(e)
 				}
 			}
 		},
-		C = (n(240), n(242), n(5)),
+		C = (n(241), n(243), n(5)),
 		S = Object(C.a)(k, (function()
 		{
 			var e = this,
@@ -13819,7 +13841,7 @@ module.exports = function(e)
 				this.loadData()
 			}
 		},
-		L = (n(244), n(246), Object(C.a)(I, (function()
+		L = (n(245), n(247), Object(C.a)(I, (function()
 		{
 			var e = this,
 				t = e.$createElement,
@@ -14133,7 +14155,7 @@ module.exports = function(e)
 		}], !1, null, "b715b2f4", null));
 	L.options.__file = "ConfigView.vue";
 	var N = L.exports,
-		M = n(23),
+		M = n(22),
 		R = n.n(M),
 		F = (n(16),
 		{
@@ -14186,7 +14208,7 @@ module.exports = function(e)
 					}))
 			}
 		}),
-		U = (n(248), n(250), Object(C.a)(F, (function()
+		U = (n(249), n(251), Object(C.a)(F, (function()
 		{
 			var e = this,
 				t = e.$createElement,
@@ -14585,7 +14607,7 @@ module.exports = function(e)
 			},
 			destroyed: function() {}
 		},
-		G = (n(252), n(254), Object(C.a)(V, (function()
+		G = (n(253), n(255), Object(C.a)(V, (function()
 		{
 			var e = this,
 				t = e.$createElement,
@@ -15523,7 +15545,7 @@ module.exports = function(e)
 				n()
 			}
 		},
-		Q = (n(256), n(258), Object(C.a)(Z, (function()
+		Q = (n(257), n(259), Object(C.a)(Z, (function()
 		{
 			var e = this,
 				t = e.$createElement,
@@ -15850,13 +15872,13 @@ module.exports = function(e)
 	"use strict";
 	var r = Math.floor;
 	n.r(t);
-	var a = n(23),
+	var a = n(22),
 		i = n.n(a),
-		o = n(9),
+		o = n(10),
 		s = n.n(o),
-		c = n(19),
+		c = n(23),
 		d = n.n(c),
-		u = n(22),
+		u = n(21),
 		l = n.n(u),
 		f = n(0),
 		p = n.n(f),
@@ -15908,7 +15930,7 @@ module.exports = function(e)
 				}
 			}
 		},
-		y = (n(218), n(220), n(5)),
+		y = (n(219), n(221), n(5)),
 		w = Object(y.a)(b, (function()
 		{
 			var e = this,
@@ -15961,7 +15983,7 @@ module.exports = function(e)
 				}
 			}
 		},
-		T = (n(225), Object(y.a)($, (function()
+		T = (n(226), Object(y.a)($, (function()
 		{
 			var e = this,
 				t = e.$createElement,
@@ -16168,7 +16190,7 @@ module.exports = function(e)
 				this.fetchData()
 			}
 		},
-		A = (n(227), Object(y.a)(O, (function()
+		A = (n(228), Object(y.a)(O, (function()
 		{
 			var e = this,
 				t = e.$createElement,
@@ -16943,7 +16965,7 @@ module.exports = function(e)
 				this.intervalID && clearInterval(this.intervalID), this.cancelLatencyTest(), this.$refs.scrollView.removeEventListener("scroll", this.handleScroll), this.scrollTop = this.$refs.scrollView.scrollTop, n()
 			}
 		},
-		F = (n(229), n(231), Object(y.a)(R, (function()
+		F = (n(230), n(232), Object(y.a)(R, (function()
 		{
 			var e = this,
 				t = e.$createElement,
@@ -17050,7 +17072,13 @@ module.exports = function(e)
 							return t.stopPropagation(), e.switchVisiable(r)
 						}
 					}
-				}) : e._e()])]), e._v(" "), !["Rule", "Script"].includes(e.currentMode) || e.showSecIdxs.includes(r) ? n("div",
+				}) : e._e()])]), e._v(" "), n("transition",
+				{
+					attrs:
+					{
+						name: "fall-fade"
+					}
+				}, [!["Rule", "Script"].includes(e.currentMode) || e.showSecIdxs.includes(r) ? n("div",
 				{
 					staticClass: "proxy-items"
 				}, [e._l(t.data.all, (function(r, a)
@@ -17111,7 +17139,7 @@ module.exports = function(e)
 					{
 						key: t
 					})
-				}))], 2) : e._e()])])
+				}))], 2) : e._e()])], 1)])
 			})), e._v(" "), -1 < e.fullScrrenIdx ? n("div",
 			{
 				attrs:
@@ -17158,7 +17186,7 @@ module.exports = function(e)
 					}
 				}
 			}) : e._e()], 2)], 1)
-		}), [], !1, null, "0d42d080", null));
+		}), [], !1, null, "3f215f52", null));
 	F.options.__file = "ProxyView.vue", t.default = F.exports
 }, function(e, t, n)
 {
@@ -17174,7 +17202,7 @@ module.exports = function(e)
 		u = n.n(d),
 		l = n(16),
 		f = n.n(l),
-		p = (n(266), n(5)),
+		p = (n(267), n(5)),
 		h = Object(p.a)(
 		{
 			props: ["src", "clickalbe"],
@@ -17242,7 +17270,7 @@ module.exports = function(e)
 	h.options.__file = "LazyImageView.vue";
 	var v = h.exports,
 		m = n(6),
-		g = (n(10),
+		g = (n(9),
 		{
 			props: [],
 			components:
@@ -17304,7 +17332,7 @@ module.exports = function(e)
 				}())
 			}
 		}),
-		x = (n(268), n(270), Object(p.a)(g, (function()
+		x = (n(269), n(271), Object(p.a)(g, (function()
 		{
 			var e = this,
 				t = e.$createElement,
@@ -17684,7 +17712,7 @@ module.exports = function(e)
 				}))
 			}
 		},
-		m = (n(233), n(235), n(5)),
+		m = (n(234), n(236), n(5)),
 		g = Object(m.a)(v, (function()
 		{
 			var e = this,
@@ -18003,7 +18031,7 @@ module.exports = function(e)
 				this.client && this.client.terminate(), n()
 			}
 		},
-		m = (n(264), n(5)),
+		m = (n(265), n(5)),
 		g = Object(m.a)(v, (function()
 		{
 			var e = this,
