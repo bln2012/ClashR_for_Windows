@@ -1,5 +1,7 @@
 "General"			"常规"
 
+"HTTP Port"		"HTTP 端口"
+"SOCKS5 Port"		"SOCKS5 端口"
 "Allow LAN"		"允许局域网连接"
 "Home Directory"		"配置文件目录"
 "Open Folder"		"打开文件夹"
@@ -19,6 +21,9 @@
 
 "Proxies"			"代理"
 
+modes: ["Global", "Rule", "Direct"]	modes: ["Global", "Rule", "Direct"], modes_text: ["全局","规则","直连"]
+e.modes			e.modes_text
+
 
 "Profiles"			"配置"
 
@@ -28,6 +33,7 @@
 "Success!"		"成功!"
 "Error!"			"错误!"
 "Edit in text mode"		"编辑文本文件"
+"Edit in Text Mode"		"编辑文本文件"
 "Edit policies"		"编辑配置节点"
 "Edit rules"		"编辑规则"
 "Duplicate profile"		"创建副本"
@@ -57,7 +63,7 @@
 "Clear"			"清除"
 "Stop"			"停止"
 "Start"			"开始"
-("Requests in " + e._s(this.mode) + " mode")	(e._s(this.mode) + "模式下所代理的请求")	
+("Requests in " + e._s(this.mode) + " mode")	(e._s(this.mode) + "模式下所代理的请求")
 
 
 "Connections"		"连接"
@@ -82,7 +88,9 @@
 
 
 "Connected"		"连接成功"
+"Silent Mode"		"静音模式"
 "Disconnected"		"断开连接"
+"Installing"		"正在安装"
 
 "Clash is running in the background", "Enjoy your free time!"	"ClashR 已经在后台运行", "享受你的自由时光！"
 
@@ -90,3 +98,16 @@
 "Open logs folder"		"打开日志文件夹"
 "Try to repair"		"尝试修复"
 "Could not connect to Clash Core"	"无法连接到Clash Core"
+"Accessors not supported!"	"不支持访问器！"
+" is not an object!"		" 不是对象！"
+"Invalid attempt to destructure non-iterable instance"	"无效的尝试来破坏不可迭代的实例"
+" is not a function!"		" 不是功能！"
+"Can't call method on  " + e	"无法在 " + e "上调用方法"
+"Can't convert object to primitive value"	"无法将对象转换为原始值"
+"Bad Promise constructor"	"不良承诺的建设者"
+"Symbol is not a constructor!"	"Symbol不是构造函数！"
+" is not a symbol!"		" 不是Symbol"
+" is not iterable!"		" 不可迭代"
+": incorrect invocation!"	": 错误的调用！"
+"The iterator does not provide a 'throw' method"	"迭代器不提供“抛出”方法"
+"iterator result is not an object"	"迭代器结果不是对象"
