@@ -17,12 +17,10 @@
 "Dark"			"暗"
 "System Proxy"		"系统代理"
 "Start with Windows"	"开机自启动"
+"Mixin"			"混合配置"
 
 
 "Proxies"			"代理"
-
-modes: ["Global", "Rule", "Direct"]	modes: ["Global", "Rule", "Direct"], modes_text: ["全局","规则","直连"]
-e.modes			e.modes_text
 
 
 "Profiles"			"配置"
@@ -90,6 +88,7 @@ e.modes			e.modes_text
 "Connected"		"连接成功"
 "Silent Mode"		"静音模式"
 "Disconnected"		"断开连接"
+"Setting DNS..."		"设置 DNS……"
 "Installing"		"正在安装"
 
 "Clash is running in the background", "Enjoy your free time!"	"ClashR 已经在后台运行", "享受你的自由时光！"
