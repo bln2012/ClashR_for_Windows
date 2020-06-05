@@ -1,20 +1,29 @@
 "General"			"常规"
 
 "HTTP Port"		"HTTP 代理端口"
+"Copy proxy setting commands"	"复制代理设置命令"
+"Select a terminal"		"选择一个终端"
+"Commands have been copied to Clipboad!"	"命令已复制到剪贴板！"
 "SOCKS5 Port"		"SOCKS5 代理端口"
 "Allow LAN"		"局域网代理"
 "Home Directory"		"配置文件目录"
 "Open Folder"		"打开文件夹"
 "GeoIP Database"		"GeoIP 数据库"
+"Error"			"错误" 
+"Updating GeoIP database is not allowed in CFW, please do it manually."	" CFW不允许更新GeoIP数据库，请手动进行。"
 "UWP Loopback"		"UWP应用联网限制解除工具"
 "Launch Helper"		"启动程序"
-"TAP Device"		"虚拟网卡安装"
+"TAP Device"		"虚拟网卡驱动"
+"Manage"		"管理"
+"TAP device management"	"虚拟网卡设备管理"
+'An adapter named "cfw-tap" will route your data into clash.'	'“cfw-tap” 将会安装到您的ClashR中。'
 "Install"			"安装"
+"Remove"		"卸载"
 "General YAML"		"文本模式编辑基础配置"
 "Text Mode Edit"		"编辑"
 "Theme"			"主题"
-"Light"			"亮"
-"Dark"			"暗"
+"Light"			"白亮"
+"Dark"			"暗黑"
 "System Proxy"		"系统代理"
 "Start with Windows"	"开机自启动"
 "Mixin"			"混合配置"
@@ -36,7 +45,7 @@
 "Edit rules"		"规则编辑"
 "Duplicate profile"		"复制配置文件"
 "Change information"	"修改配置文件信息"
-"Update this profile"	"刷新配置文件"
+"Update this profile"	"更新配置文件"
 "Edit profile information"	"编辑配置信息"
 "Name"			"备注"
 "URL"			"地址"
@@ -64,7 +73,7 @@
 ("Requests in " + e._s(this.mode) + " mode")	(e._s(this.mode) + "模式下所代理的请求")
 
 
-"Connections"		"连接"
+"Connections"		
 
 "Total: ↑"			"总计: ↑"
 "Upload Speed"		"上传速度"
@@ -79,7 +88,6 @@
 "Feedback"		"反馈"
 
 "Developer"		"开发者"
-"404 Frror"		"Boyce Lig"
 "Relevance"		"相关链接"
 "Thanks"			"鸣谢"
 "Advertisement"		"广告"
@@ -90,6 +98,7 @@
 "Disconnected"		"断开连接"
 "Setting DNS..."		"设置 DNS……"
 "Installing"		"正在安装"
+"Uninstalling"		"正在卸载"
 
 "Clash is running in the background", "Enjoy your free time!"	"ClashR 已经在后台运行", "享受你的自由时光！"
 
