@@ -697,7 +697,7 @@ module.exports = function(t)
 					{}
 					p.app.exit()
 				}
-				else t.preventDefault(), v.hide(), p.app.dock.hide();
+				else t.preventDefault(), v.hide(), "darwin" === process.platform && p.app.dock.hide();
 				return !1
 			})), v.on("session-end", (function(t)
 			{
