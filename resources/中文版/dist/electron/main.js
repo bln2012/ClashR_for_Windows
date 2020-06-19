@@ -720,8 +720,8 @@ module.exports = function(t)
 							return n = {
 								type: "error",
 								title: "ClashR for Windows",
-								message: "Dashboard has crashed!",
-								buttons: ["Reload", "Exit"]
+								message: "面板崩溃了！",
+								buttons: ["刷新", "退出"]
 							}, t.next = 5, p.dialog.showMessageBox(v, n);
 						case 5:
 							r = t.sent, 0 === r.response ? (p.app.relaunch(), p.app.exit(0)) : p.app.quit();
@@ -782,7 +782,7 @@ module.exports = function(t)
 		}));
 		var u = p.Menu.buildFromTemplate([
 		{
-			label: "Dashboard",
+			label: "显示面板",
 			click: function()
 			{
 				return v.show()
@@ -792,7 +792,7 @@ module.exports = function(t)
 			type: "separator"
 		},
 		{
-			label: "System Proxy",
+			label: "系统代理",
 			type: "checkbox",
 			id: "system-proxy",
 			click: function(t)
@@ -802,7 +802,7 @@ module.exports = function(t)
 			}
 		},
 		{
-			label: "Mixin",
+			label: "混合配置",
 			type: "checkbox",
 			id: "mixin",
 			click: function(t)
@@ -815,11 +815,11 @@ module.exports = function(t)
 			type: "separator"
 		},
 		{
-			label: "Proxy Mode",
+			label: "代理模式",
 			id: "mode",
 			submenu: [
 			{
-				label: "Global",
+				label: "全局",
 				type: "radio",
 				id: "mode-global",
 				click: function()
@@ -828,7 +828,7 @@ module.exports = function(t)
 				}
 			},
 			{
-				label: "Rule",
+				label: "规则",
 				type: "radio",
 				id: "mode-rule",
 				click: function()
@@ -837,7 +837,7 @@ module.exports = function(t)
 				}
 			},
 			{
-				label: "Direct",
+				label: "直连",
 				type: "radio",
 				id: "mode-direct",
 				click: function()
@@ -846,7 +846,7 @@ module.exports = function(t)
 				}
 			},
 			{
-				label: "Script",
+				label: "脚本",
 				type: "radio",
 				id: "mode-script",
 				click: function()
@@ -859,14 +859,14 @@ module.exports = function(t)
 			type: "separator"
 		},
 		{
-			label: "Force Quit",
+			label: "强制退出",
 			click: function()
 			{
 				p.app.isQuiting = !0, p.app.quit()
 			}
 		},
 		{
-			label: "Quit",
+			label: "退出",
 			click: function()
 			{
 				return v.webContents.send("app-exit")

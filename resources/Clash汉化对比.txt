@@ -1,6 +1,7 @@
 "General"			"常规"
 
-"HTTP Port"		"HTTP 代理端口"
+"Port"			"代理端口"
+"Log Level"		"日志级别"
 "Copy proxy setting commands"	"复制代理设置命令"
 "Select a terminal"		"选择一个终端"
 "Commands have been copied to Clipboad!"	"命令已复制到剪贴板！"
@@ -10,7 +11,7 @@
 "Open Folder"		"打开文件夹"
 "GeoIP Database"		"GeoIP 数据库"
 "Error"			"错误" 
-"Updating GeoIP database is not allowed in CFW, please do it manually."	" CFW不允许更新GeoIP数据库，请手动进行。"
+"Updating GeoIP database is not allowed in CFW, please do it manually."	"CFW不允许更新GeoIP数据库，请手动进行。"
 "UWP Loopback"		"UWP应用联网限制解除工具"
 "Launch Helper"		"启动程序"
 "TAP Device"		"虚拟网卡驱动"
@@ -22,11 +23,10 @@
 "General YAML"		"文本模式编辑基础配置"
 "Text Mode Edit"		"编辑"
 "Theme"			"主题"
-"Light"			"白亮"
-"Dark"			"暗黑"
+"Light", "Dark", "2020"	"白亮", "暗黑", "2020"
 "System Proxy"		"系统代理"
 "Start with Windows"	"开机自启动"
-"Mixin"			"混合配置"
+
 
 
 "Proxies"			"代理"
@@ -82,7 +82,7 @@
 "Download Traffic"		"下载流量"
 "Time"			"连接时间"
 "Close All"		"全部断开"
-"Active Connections"	"活动链接"
+"Connections"		"活动连接"
 
 
 "Feedback"		"反馈"
