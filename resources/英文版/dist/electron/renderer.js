@@ -13544,7 +13544,7 @@ module.exports = function(e)
 										path: K.a.join(e.clashPath, "profiles")
 									}), t.next = 26, e.handlerRestartClash();
 							case 26:
-								(s = e.confData.mode) && e.$electron.ipcRenderer.send("mode-changed", s), e.showStartup || (e.showStartup = !0, e.$showNotification("Clash is running in the background", "Enjoy your free time!")), (c = e.getDefaultInterface()) && (e.defaultInterfaceName = c), setInterval((function()
+								(s = e.confData.mode) && e.$electron.ipcRenderer.send("mode-changed", s), e.showStartup || (e.showStartup = !0, e.$showNotification("ClashR is running in the background", "Enjoy your free time!")), (c = e.getDefaultInterface()) && (e.defaultInterfaceName = c), setInterval((function()
 									{
 										var t = e.getDefaultInterface();
 										t && (e.defaultInterfaceName = t)
